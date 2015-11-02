@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: LongoMatch\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=longomatch&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-08-13 10:48+0000\n"
-"PO-Revision-Date: 2015-11-02 07:09+0000\n"
+"POT-Creation-Date: 2015-11-02 07:11+0000\n"
+"PO-Revision-Date: 2015-11-02 07:14+0000\n"
 "Last-Translator: Pedro Albuquerque <palbuquerque73@gmail.com>\n"
 "Language-Team: Português <palbuquerque73@gmail.com>\n"
 "Language: pt\n"
@@ -1615,6 +1615,46 @@ msgstr "Segurança com sucesso"
 #: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:187
 msgid "Could not create backup"
 msgstr "Impossível criar segurança"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:205
+#| msgid "Active database"
+msgid "Scanning database..."
+msgstr "A pesquisar base de dados..."
+
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:218
+msgid "Database scanned succesfully."
+msgstr "Base de dados pesquisada com sucesso."
+
+#. Force tooltips to be translatable as there seems to be a bug in stetic
+#. code generation for translatable tooltips.
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:96
+#| msgid "Select all"
+msgid "Selection tool"
+msgstr "Ferramenta Selecionar"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:97
+#| msgid "Player tool"
+msgid "Rubber tool"
+msgstr "Ferramenta Borracha"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:98
+#| msgid "Angle tool"
+msgid "Pencil tool"
+msgstr "Ferramenta Lápis"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:99
+#| msgid "Text color"
+msgid "Text tool"
+msgstr "Ferramenta Texto"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:100
+#| msgid "Angle tool"
+msgid "Line tool"
+msgstr "Ferramenta Linha"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:101
+msgid "Cross tool"
+msgstr "Ferramenta Cruz"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:102
 msgid "Rectangle tool"
