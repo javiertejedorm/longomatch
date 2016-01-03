@@ -1,21 +1,21 @@
 # German translation of longomatch.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: longomatch master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=longomatch&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-10-08 06:28+0000\n"
-"PO-Revision-Date: 2014-12-18 23:48+0100\n"
-"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
+"POT-Creation-Date: 2016-01-03 13:28+0000\n"
+"PO-Revision-Date: 2016-01-03 22:09+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:2121
 msgid ""
@@ -553,7 +553,7 @@ msgstr "Projekte automatisch speichern"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LiveAnalysisPreferences.cs:71
 msgid "Review plays in the same window"
-msgstr ""
+msgstr "Wiederholung im gleichen Fenster wiedergeben"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LiveAnalysisPreferences.cs:82
 msgid "Output directory"
@@ -564,6 +564,8 @@ msgid ""
 "Render new plays automatically\n"
 "(Requires a powerful CPU)"
 msgstr ""
+"Stellt neue Spiele automatisch dar\n"
+"(erfordert leistungsfähigen Prozessor)"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlayerProperties.cs:87
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.ProjectDetailsWidget.cs:313
@@ -638,11 +640,11 @@ msgstr "Spiele"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlaysSelectionWidget.cs:84
 msgid "  Plays Selection   "
-msgstr ""
+msgstr "  Auswahl wird abgespielt   "
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlaysSelectionWidget.cs:118
 msgid "Activate categories filters"
-msgstr ""
+msgstr "Kategoriefilter aktivieren"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlaysSelectionWidget.cs:144
 msgid "Activate players filters"
@@ -734,20 +736,17 @@ msgid "<b>All</b>"
 msgstr "<b>Alle</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.CategoryViewer.cs:110
-#, fuzzy
 #| msgid "<b>HotKey:</b>"
 msgid "<b>Home</b>"
-msgstr "Zu Hause"
+msgstr "<b>Home</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.CategoryViewer.cs:134
 msgid "<b>Away</b>"
 msgstr "<b>Abwesend</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.CategoryViewer.cs:147
-#, fuzzy
-#| msgid "Manual tagging view"
 msgid "Zonal tagging"
-msgstr "Manuelle Schlagwort-Ansicht"
+msgstr "Zonales Tagging"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.PlayerSubcategoryViewer.cs:57
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.SubCategoryViewer.cs:57
@@ -809,16 +808,13 @@ msgstr "Audio aktivieren (experimentell)"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:131
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:134
-#, fuzzy
-#| msgid "Enable Title Overlay"
 msgid "Enable title overlay"
 msgstr "Titelüberlagerung aktivieren"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:170
-#, fuzzy
 #| msgid "Rendering"
 msgid "<b>Rendering</b>"
-msgstr "Rendern"
+msgstr "<b>Darstellung</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:252
 msgid "<b>Capture</b>"
@@ -947,10 +943,8 @@ msgstr "Live-Projekt, basierend auf einem simulierten Aufnahmegerät"
 
 #. Container child ipcamerabox.Gtk.Box+BoxChild
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.ProjectSelectionDialog.cs:134
-#, fuzzy
-#| msgid "Live project using a capture device"
 msgid "Live project using an IP camera"
-msgstr "Live-Projekt, basierend auf einem Aufnahmegerät"
+msgstr "Live-Projekt, basierend auf einer IP-Kamera"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.ProjectsManager.cs:28
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:92
@@ -1008,10 +1002,8 @@ msgid "Game stats"
 msgstr "Spielstatistiken"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.StatsViewer.cs:60
-#, fuzzy
-#| msgid "Categories"
 msgid "Categories stats"
-msgstr "Kategorien"
+msgstr "Kategorie-Statistiken"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.StatsViewer.cs:73
 msgid "Players stats"
@@ -1119,19 +1111,16 @@ msgid "Image format: "
 msgstr "Bildformat:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:111
-#| msgid "Video Format:"
 msgid "Encoding Format:"
 msgstr "Kodierformat:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:145
-#, fuzzy
-#| msgid "Enable Audio (Experimental)"
 msgid "Enable audio (Experimental)"
 msgstr "Audio aktivieren (experimentell)"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:160
 msgid "Split output in one file per playlist element"
-msgstr ""
+msgstr "Ausgabe in eine Datei pro Wiedergabelistenelement teilen"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:218
 msgid "Directory name: "
@@ -1288,17 +1277,13 @@ msgstr "Aus Datei importieren"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:176
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:178
-#, fuzzy
-#| msgid "_Add subcategory"
 msgid "Tag subcategories"
-msgstr "Unterk_ategorie hinzufügen"
+msgstr "Tag-Unterkategorien"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:180
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:181
-#, fuzzy
-#| msgid "Video Properties"
 msgid "Video Converter Tool"
-msgstr "Video-Eigenschaften"
+msgstr "Video-Umwandlungswerkzeug"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:183
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:184
@@ -1307,10 +1292,8 @@ msgstr "Datenbankverwaltung"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:189
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:191
-#, fuzzy
-#| msgid "Project statistics"
 msgid "Show project stats"
-msgstr "Projektstatistiken"
+msgstr "Projektstatistiken anzeigen"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:329
 msgid "<b>Notes</b>"
@@ -1367,7 +1350,7 @@ msgstr "Feldhintergrund"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:155
 msgid "Half field background"
-msgstr ""
+msgstr "Halbfeld-Hintergrund"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:158
 msgid "Goal background"
@@ -1375,8 +1358,6 @@ msgstr "Torhintergrund"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:161
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:236
-#, fuzzy
-#| msgid "Game units"
 msgid "Game periods"
 msgstr "Spieleinheiten"
 
@@ -1389,6 +1370,8 @@ msgstr "Zurücksetzen"
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:243
 msgid "Invalid content. Periods must be separated by spaces (\"1 2 ex1 ex2\")"
 msgstr ""
+"Ungültiger Inhalt. Perioden müssen durch Leerzeichen getrennt werden (»1 2 "
+"ex1 ex2«)"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoryProperties.cs:80
 msgid "Create new..."
@@ -1434,11 +1417,11 @@ msgstr "Spielerfilter"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:235
 msgid "Disable categories filters"
-msgstr ""
+msgstr "Kategoriefilter deaktivieren"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:237
 msgid "Enable categories filters"
-msgstr ""
+msgstr "Kategoriefilter aktivieren"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:245
 msgid "Disable players filters"
@@ -1535,14 +1518,13 @@ msgstr "Anzahl"
 
 #: ../LongoMatch.GUI/Gui/Component/Stats/Plotter.cs:52
 #: ../LongoMatch.GUI/Gui/Component/Stats/SubcategoryViewer.cs:36
-#, fuzzy
 msgid "Home"
 msgstr "Heim"
 
 #: ../LongoMatch.GUI/Gui/Component/Stats/Plotter.cs:53
 #: ../LongoMatch.GUI/Gui/Component/Stats/SubcategoryViewer.cs:37
 msgid "Away"
-msgstr "Abwesend"
+msgstr "Auswärts"
 
 #: ../LongoMatch.GUI/Gui/Component/Stats/Plotter.cs:108
 msgid "Total"
@@ -1933,7 +1915,7 @@ msgstr "Zeit:"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerCapturerBin.cs:63
 msgid "Back To Live"
-msgstr ""
+msgstr "Zurück zur Live-Ansicht"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:138
 msgid "Do you want to pause the recording?"
@@ -1997,13 +1979,15 @@ msgstr "Fehler beim Exportieren des Projekts"
 
 #: ../LongoMatch.Services/Services/DataBaseManager.cs:122
 msgid "Close the current project to open the database manager"
-msgstr ""
+msgstr "Das aktuelle Projekt schließen, um die Datenbankverwaltung zu öffnen"
 
 #: ../LongoMatch.Services/Services/DataBaseManager.cs:150
 #, csharp-format
 msgid ""
 "The database {0} is corrupted, would you like to restore the last backup?"
 msgstr ""
+"Die Datenbank {0} ist beschädigt, wollen Sie sie aus der letzten Sicherung "
+"wiederherstellen?"
 
 #: ../LongoMatch.Services/Services/DataBaseManager.cs:151
 msgid "Database"
@@ -2017,6 +2001,8 @@ msgstr "Sicherungskopie wurde erfolgreich wiederhergestellt."
 #: ../LongoMatch.Services/Services/DataBaseManager.cs:182
 msgid "Could not recover backup, this database will not be used"
 msgstr ""
+"Wiederherstellung aus der Sicherung nicht möglich, diese Datenbank wird "
+"nicht verwendet"
 
 #: ../LongoMatch.Services/Services/EventsManager.cs:182
 msgid "You can't create a new play if the capturer is not recording."
@@ -2084,6 +2070,8 @@ msgid ""
 "This project doesn't have any file associated.\n"
 "Select one in the next window"
 msgstr ""
+"Diesem Projekt ist keine Datei zugeordnet.\n"
+"Wählen Sie im nächsten Fenster eine aus"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:199
 msgid "Select a video file"
@@ -2144,7 +2132,7 @@ msgstr "Projekt speichern"
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:159
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:182
 msgid "Error rendering job: "
-msgstr ""
+msgstr "Darstellungsfehler: "
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:270
 msgid "Rendering"
