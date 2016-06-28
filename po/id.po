@@ -1,22 +1,23 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Andika Triwidada <andika@gmail.com>, 2014
+# Indonesian translation for longomatch.
+# Copyright (C) 2014 longomatch's COPYRIGHT HOLDER
+# This file is distributed under the same license as the longomatch package.
+# Andika Triwidada <andika@gmail.com>, 2014.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: LongoMatch\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=longomatch&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-04-28 22:25+0000\n"
-"PO-Revision-Date: 2015-04-28 08:33+0000\n"
-"Last-Translator: ylatuya <ylatuya@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/projects/p/longomatch/language/id/)\n"
+"Project-Id-Version: longomatch 0.20\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=longomatch&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-05-07 17:06+0000\n"
+"PO-Revision-Date: 2016-06-28 13:51+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ../libcesarplayer/lgm-video-player.c:337
 msgid "Location not found."
@@ -25,7 +26,8 @@ msgstr "Lokasi tak ditemukan."
 #: ../libcesarplayer/lgm-video-player.c:340
 msgid ""
 "Could not open location; you might not have permission to open the file."
-msgstr "Tak bisa membuka lokasil mungkin Anda tak punya izin untuk membuka berkas."
+msgstr ""
+"Tak bisa membuka lokasil mungkin Anda tak punya izin untuk membuka berkas."
 
 #: ../libcesarplayer/lgm-video-player.c:420
 msgid "Media file could not be played."
@@ -39,9 +41,10 @@ msgid ""
 msgstr ""
 
 #: ../libcesarplayer/lgm-video-player.c:960
-#, c-format
+#, fuzzy, c-format
+#| msgid "Location not found."
 msgid "No valid sink found."
-msgstr ""
+msgstr "Tenggelam Kejadian"
 
 #: ../LongoMatch/longomatch.desktop.in.in.h:1
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:170
@@ -58,123 +61,153 @@ msgstr ""
 
 #: ../LongoMatch/Main.cs:83
 msgid ""
-"The database seems to be locked by another instance and the application will"
-" be closed."
+"The database seems to be locked by another instance and the application will "
+"be closed."
 msgstr ""
 
 #: ../LongoMatch/Main.cs:168
+#, fuzzy
 msgid "The application has finished with an unexpected error."
-msgstr ""
+msgstr "Kesalahan tak terduga telah terjadi: %d."
 
 #: ../LongoMatch/Main.cs:169
+#, fuzzy
 msgid "A log has been saved at: "
-msgstr ""
+msgstr "Proyek Anda belum disimpan."
 
 #: ../LongoMatch/Main.cs:170
+#, fuzzy
 msgid "Please, fill a bug report "
-msgstr ""
+msgstr "Stylesheet NULL, harap laporkan kutu"
 
 #: ../LongoMatch.Core/Common/Device.cs:79
 #: ../LongoMatch.GUI/Gui/Component/GeneralPreferencesPanel.cs:56
+#, fuzzy
 msgid "Default"
-msgstr ""
+msgstr "Baku"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:28
+#, fuzzy
 msgid "Database locked:"
-msgstr ""
+msgstr "Terkunci"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:37
+#, fuzzy
 msgid "Unknown database error:"
-msgstr ""
+msgstr "Galat Tak Dikenal"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:53
+#, fuzzy
+#| msgid "Projects Manager"
 msgid "Project loading failed:"
-msgstr ""
+msgstr "Galat sewaktu memuat proyek"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:62
+#, fuzzy
+#| msgid "File not found"
 msgid "Project file not found:\n"
-msgstr ""
+msgstr "Berkas, projek, dan komponen projek baru."
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:70
+#, fuzzy
 msgid "The name contains invalid characters: "
-msgstr ""
+msgstr "Nama '%s' yang dinyatakan memuat karakter yang tak valid"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:78
+#, fuzzy
+#| msgid "File not found"
 msgid "Template not found:\n"
-msgstr ""
+msgstr "_Template:"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:86
 #: ../LongoMatch.GUI/Gui/Component/HotkeysConfiguration.cs:73
+#, fuzzy
 msgid "Hotkey already in use: "
-msgstr ""
+msgstr "Perangkat sedang dipakai."
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:57
+#, fuzzy
 msgid "Delete selected event"
-msgstr ""
+msgstr "Gagal menghapus suatu acara dalam kalender '{0}'"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:58
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:81
+#, fuzzy
 msgid "Draw frame"
-msgstr ""
+msgstr "Bingkai"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:59
+#, fuzzy
 msgid "Edit selected event"
-msgstr ""
+msgstr "Klik untuk menyunting palet yang dipilih"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:60
+#, fuzzy
 msgid "Adjust timeline to current position"
-msgstr ""
+msgstr "Tanda Tauti Posisi dalam Trek Saat Ini"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:61
+#, fuzzy
 msgid "Frame step backward"
-msgstr ""
+msgstr "Bingkai"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:62
+#, fuzzy
 msgid "Frame step forward"
-msgstr ""
+msgstr "_Step"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:63
+#, fuzzy
 msgid "Jump backward"
-msgstr ""
+msgstr "_Lompat ke"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:64
+#, fuzzy
 msgid "Jump forward"
-msgstr ""
+msgstr "_Lompat ke"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:65
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:80
+#, fuzzy
 msgid "Close loaded event"
-msgstr ""
+msgstr "K_ejadian:"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:66
 #: ../LongoMatch.Core/Common/Hotkeys.cs:73
+#, fuzzy
 msgid "Start tagging home player"
-msgstr ""
+msgstr "Untuk Memulai <application>Totem Pemutar Film</application>"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:67
 #: ../LongoMatch.Core/Common/Hotkeys.cs:74
+#, fuzzy
 msgid "Start tagging away player"
-msgstr ""
+msgstr "Untuk Memulai <application>Totem Pemutar Film</application>"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:68
+#, fuzzy
 msgid "Jump to next event"
-msgstr ""
+msgstr "Lompat ke lagu selanjutnya"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:69
+#, fuzzy
 msgid "Jump to prev event"
-msgstr ""
+msgstr "_Lompat ke"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:70
+#, fuzzy
 msgid "Show dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:71
+#, fuzzy
 msgid "Show zonal tags"
-msgstr ""
+msgstr "Tampilkan semua tag"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:72
+#, fuzzy
 msgid "Show timeline"
-msgstr ""
+msgstr "Tampak"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:75
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:32
@@ -187,50 +220,62 @@ msgid "Decrease playback speed"
 msgstr "Turunkan kecepatan putar"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:77
+#, fuzzy
 msgid "Pause/Resume capture clock"
-msgstr ""
+msgstr "Menahan atau melanjutkan deretan gambar"
 
 #. Force tooltips to be translatable as there seems to be a bug in stetic
 #. code generation for translatable tooltips.
 #: ../LongoMatch.Core/Common/Hotkeys.cs:78
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:68
+#, fuzzy
 msgid "Start recording period"
-msgstr ""
+msgstr "Memulai/berhenti merekam kejadian"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:79
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:69
+#, fuzzy
 msgid "Stop recording period"
-msgstr ""
+msgstr "Memulai/berhenti merekam kejadian"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:80
+#, fuzzy
 msgid "Toggle substitutions mode"
-msgstr ""
+msgstr "Substitusi"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:81
+#, fuzzy
 msgid "Toggle playback"
-msgstr ""
+msgstr "Jungkit memutar"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:82
+#, fuzzy
 msgid "Zoom timeline in"
-msgstr ""
+msgstr "Perbesar Tamp_ilan"
 
 #: ../LongoMatch.Core/Common/Hotkeys.cs:83
+#, fuzzy
 msgid "Zoom timeline out"
-msgstr ""
+msgstr "Perkecil."
 
 #: ../LongoMatch.Core/Common/VideoStandards.cs:55
+#, fuzzy
 msgid "Keep original size"
-msgstr ""
+msgstr "Pertahankan huruf besar kecil seperti semula"
 
 #: ../LongoMatch.Core/Stats/PlayerEventTypeStats.cs:62
 #: ../LongoMatch.Core/Store/EventType.cs:162
+#, fuzzy
+#| msgid "Score:"
 msgid "Score"
-msgstr ""
+msgstr "Nilai"
 
 #: ../LongoMatch.Core/Stats/PlayerEventTypeStats.cs:72
 #: ../LongoMatch.Core/Store/EventType.cs:139
+#, fuzzy
+#| msgid "Penalty"
 msgid "Penalties"
-msgstr ""
+msgstr "Penalti"
 
 #: ../LongoMatch.Core/Store/EventType.cs:88
 #: ../LongoMatch.Core/Store/EventType.cs:96
@@ -239,8 +284,9 @@ msgstr ""
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:86
 #: ../LongoMatch.Migration/Core/Category.cs:154
 #: ../LongoMatch.Migration/Core/Category.cs:162
+#, fuzzy
 msgid "Sort by name"
-msgstr ""
+msgstr "_Urutkan..."
 
 #: ../LongoMatch.Core/Store/EventType.cs:90
 #: ../LongoMatch.Core/Store/EventType.cs:100
@@ -248,8 +294,9 @@ msgstr ""
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:87
 #: ../LongoMatch.Migration/Core/Category.cs:156
 #: ../LongoMatch.Migration/Core/Category.cs:166
+#, fuzzy
 msgid "Sort by start time"
-msgstr ""
+msgstr "Waktu _mulai:"
 
 #: ../LongoMatch.Core/Store/EventType.cs:92
 #: ../LongoMatch.Core/Store/EventType.cs:102
@@ -257,8 +304,9 @@ msgstr ""
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:88
 #: ../LongoMatch.Migration/Core/Category.cs:158
 #: ../LongoMatch.Migration/Core/Category.cs:168
+#, fuzzy
 msgid "Sort by stop time"
-msgstr ""
+msgstr "Pengurutan"
 
 #: ../LongoMatch.Core/Store/EventType.cs:94
 #: ../LongoMatch.Core/Store/EventType.cs:104
@@ -266,12 +314,15 @@ msgstr ""
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:89
 #: ../LongoMatch.Migration/Core/Category.cs:160
 #: ../LongoMatch.Migration/Core/Category.cs:170
+#, fuzzy
 msgid "Sort by duration"
-msgstr ""
+msgstr "durasi"
 
 #: ../LongoMatch.Core/Store/EventType.cs:185
+#, fuzzy
+#| msgid "Position"
 msgid "Substitution"
-msgstr ""
+msgstr "Substitusi"
 
 #: ../LongoMatch.Core/Store/HotKey.cs:131
 #: ../LongoMatch.Migration/Core/HotKey.cs:142
@@ -282,25 +333,31 @@ msgstr "Tak didefinisikan"
 #: ../LongoMatch.Core/Store/MediaFileSet.cs:63
 #: ../LongoMatch.GUI/Gui/Component/MediaFileSetSelection.cs:61
 #: ../LongoMatch.GUI/Gui/Component/MediaFileSetSelection.cs:95
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:444
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:448
+#, fuzzy
 msgid "Main camera angle"
-msgstr ""
+msgstr "Kamera"
 
 #: ../LongoMatch.Core/Store/MediaFileSet.cs:66
+#, fuzzy
 msgid "Angle 2"
-msgstr ""
+msgstr "Sudut"
 
 #: ../LongoMatch.Core/Store/MediaFileSet.cs:69
+#, fuzzy
 msgid "Angle 3"
-msgstr ""
+msgstr "Sudut"
 
 #: ../LongoMatch.Core/Store/MediaFileSet.cs:72
+#, fuzzy
 msgid "Angle 4"
-msgstr ""
+msgstr "Sudut"
 
 #: ../LongoMatch.Core/Store/Project.cs:357
+#, fuzzy
+#| msgid "File not found"
 msgid "No lineup events found"
-msgstr ""
+msgstr "Tak Ada Kejadian"
 
 #: ../LongoMatch.Core/Store/Project.cs:360
 msgid "A substitution can't happen before the lineup event"
@@ -310,15 +367,16 @@ msgstr ""
 msgid "Lineup"
 msgstr ""
 
-#: ../LongoMatch.Core/Store/Project.cs:529
+#: ../LongoMatch.Core/Store/Project.cs:577
 #: ../LongoMatch.Migration/Core/Project.cs:289
 msgid "The file you are trying to load is not a valid project"
 msgstr ""
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:228
 #: ../LongoMatch.Migration/Core/Templates/CategoriesTemplate.cs:180
+#, fuzzy
 msgid "Success"
-msgstr ""
+msgstr "Berhasil"
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:229
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:231
@@ -328,36 +386,53 @@ msgstr ""
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:230
 #: ../LongoMatch.Migration/Core/Templates/CategoriesTemplate.cs:181
+#, fuzzy
 msgid "Failure"
-msgstr ""
+msgstr "Gagal"
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:335
+#, fuzzy
 msgid "Attack"
 msgstr ""
+"Anda jangan, dalam keadaan apapun, menata pengguna/grup GDM ke sesuatu yang "
+"dapat diakses dengan mudah oleh pengguna lain, seperti misalnya pengguna "
+"<filename>nobody</filename>. Sebarang pengguna yang mendapat akses ke kunci "
+"Xauth dapat menyadap dan mengendalikan program GUI yang berjalan pada sesi "
+"terkait atau melakukan serangan denial-of-service padanya. Penting untuk "
+"memastikan bahwa sistem ditata secara benar sehingga hanya pengguna \"gdm\" "
+"punya akses ke berkas tersebut dan tak mudah untuk log masuk ke akun ini. "
+"Sebagai contoh, akun mesti disiapkan untuk tak memiliki sandi atau "
+"mengijinkan pengguna bukan root untuk log masuk ke akun."
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:341
 msgid "Defense"
 msgstr ""
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:347
+#, fuzzy
 msgid "Red card"
-msgstr ""
+msgstr "Me_rah:"
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:354
+#, fuzzy
 msgid "Yellow card"
-msgstr ""
+msgstr "kuning"
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:362
+#, fuzzy
 msgid "Free play goal"
-msgstr ""
+msgstr "Sasaran"
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:372
+#, fuzzy
+#| msgid "Penalty"
 msgid "Penalty goal"
-msgstr ""
+msgstr "Penalti"
 
 #: ../LongoMatch.Core/Store/Templates/Dashboard.cs:381
+#, fuzzy
 msgid "Ball playing"
-msgstr ""
+msgstr "Memutar"
 
 #: ../LongoMatch.Core/Store/Templates/Team.cs:41
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:557
@@ -371,11 +446,13 @@ msgstr "Tim"
 #: ../LongoMatch.Drawing/Widgets/TimelineLabels.cs:78
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.DashboardWidget.cs:493
 #: ../LongoMatch.GUI/Gui/TreeView/CategoriesFilterTreeView.cs:51
+#, fuzzy
+#| msgid "Period"
 msgid "Periods"
-msgstr ""
+msgstr "nper:banyaknya perioda"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:130
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:55
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:56
 #: ../LongoMatch.Migration/Core/SubCategory.cs:85
 #: ../LongoMatch.Plugins.Stats/Stats/PlayerSubcategoryViewer.cs:35
 msgid "Name"
@@ -383,7 +460,7 @@ msgstr "Nama"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:140
 msgid "Color"
-msgstr ""
+msgstr "Warna"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:176
 #: ../LongoMatch.GUI/Gui/Component/CategoryProperties.cs:191
@@ -396,99 +473,125 @@ msgid "Change"
 msgstr "Ubah"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:202
+#, fuzzy
 msgid "HotKey"
-msgstr ""
+msgstr "Kombinasi tombol cepat bagi aksi terkait."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:224
+#, fuzzy
 msgid "Text color"
-msgstr ""
+msgstr "Warna teks"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:246
+#, fuzzy
 msgid "Lead time (s)"
-msgstr ""
+msgstr "Jalur \"%s\" tidak mengarah ke kotak-surat."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:258
+#, fuzzy
 msgid "Lag time (s)"
-msgstr ""
+msgstr "Ter_lambat:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:298
+#, fuzzy
 msgid "Tag mode"
-msgstr ""
+msgstr "Tag"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:306
+#, fuzzy
 msgid "Automatic"
-msgstr ""
+msgstr "(otomatis)"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:307
+#, fuzzy
 msgid "Manual"
-msgstr ""
+msgstr "Atur sendiri"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:326
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:338
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:351
+#, fuzzy
 msgid "Not tagged"
-msgstr ""
+msgstr "Di-tag"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:327
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:339
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:352
+#, fuzzy
 msgid "Tag as point"
-msgstr ""
+msgstr "Tag"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:328
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:353
+#, fuzzy
+#| msgid "Trajectory"
 msgid "Tag as trajectory"
-msgstr ""
+msgstr "Trayektori"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:367
+#, fuzzy
+#| msgid "<b>Field position</b>"
 msgid "Field position"
-msgstr ""
+msgstr "<b>Posisi setengah lapangan</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:377
+#, fuzzy
+#| msgid "<b>Half field position</b>"
 msgid "Half field position"
-msgstr ""
+msgstr "<b>Posisi setengah lapangan</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:389
+#, fuzzy
+#| msgid "<b>Goal Position</b>"
 msgid "Goal position"
-msgstr ""
+msgstr "<b>Posisi Gawang</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:401
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:85
+#, fuzzy
 msgid "Sort Method"
-msgstr ""
+msgstr "Pengurutan"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:437
+#, fuzzy
 msgid "Tags per row"
-msgstr ""
+msgstr "_Tag:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:449
+#, fuzzy
 msgid "Show tags"
-msgstr ""
+msgstr "Tampilkan tag"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:495
+#, fuzzy
 msgid "Shape"
-msgstr ""
+msgstr "Membentuk"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:503
+#, fuzzy
 msgid "Rectangle"
-msgstr ""
+msgstr "Persegi Panjang"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:504
+#, fuzzy
 msgid "Triangle"
-msgstr ""
+msgstr "Segi Tiga"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:505
+#, fuzzy
 msgid "Circle"
-msgstr ""
+msgstr "Lingkaran"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:526
+#, fuzzy
 msgid "Points"
-msgstr ""
+msgstr "titik"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:565
-#: ../LongoMatch.GUI/Gui/Dialog/PlayEditor.cs:113
+#: ../LongoMatch.GUI/Gui/Dialog/PlayEditor.cs:114
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "Tidak ada"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:566
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GameDescriptionHeader.cs:57
@@ -507,8 +610,9 @@ msgid "Away"
 msgstr "Tandang"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:600
+#, fuzzy
 msgid "Group"
-msgstr ""
+msgstr "Kelompok"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CodingWidget.cs:72
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.DashboardWidget.cs:552
@@ -553,65 +657,79 @@ msgid "<span font_desc=\"10\">Goal</span>"
 msgstr ""
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.EventsListWidget.cs:41
+#, fuzzy
 msgid "Events"
-msgstr ""
+msgstr "Kejadian"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GameDescriptionHeader.cs:69
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GameDescriptionHeader.cs:82
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GeneralPreferencesPanel.cs:35
 msgid "Interface language:"
 msgstr "Bahasa antar muka:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GeneralPreferencesPanel.cs:44
+#, fuzzy
 msgid "Autosave projects"
-msgstr ""
+msgstr "Proyek"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GeneralPreferencesPanel.cs:55
+#, fuzzy
 msgid "Default analysis template"
-msgstr ""
+msgstr "Analisa Fourier"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:79
+#, fuzzy
 msgid "Activate -> Deactivate"
-msgstr ""
+msgstr "Mengaktifkan/Mematikan geolokasi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:80
+#, fuzzy
 msgid "Activate -> Activate"
-msgstr ""
+msgstr "_Aktifkan"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:93
+#, fuzzy
 msgid "Clear"
-msgstr ""
+msgstr "Bersihkan"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:94
+#, fuzzy
 msgid "Keep"
-msgstr ""
+msgstr "Pertahankan"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:95
+#, fuzzy
 msgid "Invert"
-msgstr ""
+msgstr "Balik"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:109
+#, fuzzy
 msgid "Action"
-msgstr ""
+msgstr "Aksi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:120
+#, fuzzy
 msgid "From:"
-msgstr ""
+msgstr "Dari:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:155
+#, fuzzy
 msgid "Keep generic tags"
-msgstr ""
+msgstr "Tag:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:166
+#, fuzzy
 msgid "Keep player tags"
-msgstr ""
+msgstr "_Pertahankan"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:177
+#, fuzzy
+#| msgid "Team selection"
 msgid "Team action"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.LinkProperties.cs:188
 msgid "To:"
@@ -632,12 +750,14 @@ msgid ""
 msgstr ""
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlaysSelectionWidget.cs:43
+#, fuzzy
 msgid "  Events   "
-msgstr ""
+msgstr "Tak Ada Kejadian"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlaysSelectionWidget.cs:59
+#, fuzzy
 msgid "Playlists"
-msgstr ""
+msgstr "Daftar putar"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PlaysSelectionWidget.cs:82
 msgid "  Filters  "
@@ -654,40 +774,47 @@ msgstr "Nama:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PluginsPreferences.cs:144
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.ProjectsManagerPanel.cs:239
+#, fuzzy
+#| msgid "Position:"
 msgid "Description:"
-msgstr ""
+msgstr "Keterangan:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PluginsPreferences.cs:155
+#, fuzzy
 msgid "Author:"
-msgstr ""
+msgstr "Penulis:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PluginsPreferences.cs:166
 msgid "File:"
-msgstr ""
+msgstr "Berkas:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PluginsPreferences.cs:189
 msgid "<b>Description</b>"
-msgstr ""
+msgstr "<b>Deskripsi</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.PluginsPreferences.cs:214
 msgid "<b>Configuration</b>"
-msgstr ""
+msgstr "<b>Konfigurasi</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.ProjectListWidget.cs:60
+#, fuzzy
 msgid "Sort by date"
-msgstr ""
+msgstr "_Urutkan..."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.ProjectListWidget.cs:61
+#, fuzzy
 msgid "Sort by modification date"
-msgstr ""
+msgstr "Tanggal modifikasi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.ProjectListWidget.cs:62
+#, fuzzy
 msgid "Sort by season"
-msgstr ""
+msgstr "Musim:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.ProjectListWidget.cs:63
+#, fuzzy
 msgid "Sort by competition"
-msgstr ""
+msgstr "Kompetisi:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.TeamTemplateEditor.cs:195
 msgid "<span font_desc=\"10\">Team shield</span>"
@@ -750,18 +877,23 @@ msgid "<span font_desc=\"10\">E-mail</span>"
 msgstr ""
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.TeamTemplateEditor.cs:738
+#, fuzzy
 msgid "Save template"
-msgstr ""
+msgstr "Menyimpan sebegai Palet"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.TeamTemplateEditor.cs:763
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:188
+#, fuzzy
+#| msgid "New playlist"
 msgid "New player"
-msgstr ""
+msgstr "Pemutar Audio"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.TeamTemplateEditor.cs:789
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:190
+#, fuzzy
+#| msgid "Delete "
 msgid "Delete player"
-msgstr ""
+msgstr "_Hapus..."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:78
 msgid "  <b>Framerate</b>"
@@ -776,12 +908,14 @@ msgid "30 fps"
 msgstr "30 fps"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:89
+#| msgid "30 fps"
 msgid "50 fps"
-msgstr ""
+msgstr "50 fps"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:90
+#| msgid "30 fps"
 msgid "60 fps"
-msgstr ""
+msgstr "60 fps"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:120
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:281
@@ -790,8 +924,9 @@ msgstr "Format citra"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:129
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:270
+#, fuzzy
 msgid "Encoding format"
-msgstr ""
+msgstr "Tanpa pengkodean"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:140
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:259
@@ -801,17 +936,19 @@ msgstr "Kualitas"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:151
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:161
+#, fuzzy
 msgid "Enable audio"
-msgstr ""
+msgstr "_Audio"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:162
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:151
+#, fuzzy
 msgid "Enable title overlay"
-msgstr ""
+msgstr "Penggulungan Overlay"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:204
 msgid "<b>Rendering</b>"
-msgstr ""
+msgstr "<b>Perenderan</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:290
 msgid "<b>Capture</b>"
@@ -822,43 +959,56 @@ msgid "Calendar"
 msgstr "Kalender"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.ChooseProjectDialog.cs:18
+#, fuzzy
+#| msgid "_Close Project"
 msgid "Choose project"
-msgstr ""
+msgstr "Projek"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.CodecsChoiceDialog.cs:61
+#, fuzzy
 msgid "Missing CODECS"
-msgstr ""
+msgstr "Hilang sebagai"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.CodecsChoiceDialog.cs:72
 msgid ""
-"As explained and detailed in the <a href=\"http://www.longomatch.com/open-source.html\">OpenSource project</a> page, the use of this free and open source version of LongoMatch requires that you also install additional software called a CODEC, which may also be free.  \n"
+"As explained and detailed in the <a href=\"http://www.longomatch.com/open-"
+"source.html\">OpenSource project</a> page, the use of this free and open "
+"source version of LongoMatch requires that you also install additional "
+"software called a CODEC, which may also be free.  \n"
 "\n"
-"To acknowledge your understanding and for more information on why this is so, where to get it and how to install it visit the <a href=\"http://www.longomatch.com/open-source.html\">OpenSource project</a> page.\n"
+"To acknowledge your understanding and for more information on why this is "
+"so, where to get it and how to install it visit the <a href=\"http://www."
+"longomatch.com/open-source.html\">OpenSource project</a> page.\n"
 "\n"
-"To avoid this, and to enjoy many additional functional benefits, we encourage you to upgrade to Longomatch PRO, which, for a fee, is ready-to-use. "
+"To avoid this, and to enjoy many additional functional benefits, we "
+"encourage you to upgrade to Longomatch PRO, which, for a fee, is ready-to-"
+"use. "
 msgstr ""
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:36
 msgid "Databases manager"
 msgstr "Manajer basis data"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:96
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:97
+#, fuzzy
 msgid "_Select DB"
-msgstr ""
+msgstr "+{0} dB"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:123
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:124
 msgid "_Delete"
 msgstr "_Hapus"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:150
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:151
+#, fuzzy
 msgid "_Backup"
-msgstr ""
+msgstr "_Backup"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:177
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:178
+#, fuzzy
 msgid "Re-scan"
-msgstr ""
+msgstr "Re:"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:203
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DatabasesManager.cs:204
 msgid "_Add"
 msgstr "T_ambah"
 
@@ -878,27 +1028,31 @@ msgstr "<b>Warna</b>"
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:557
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:678
 msgid "<b>Size</b>"
-msgstr ""
+msgstr "<b>Ukuran</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:569
 msgid "<b>Style</b>"
-msgstr ""
+msgstr "<b>Gaya</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:581
 msgid "<b>Type</b>"
-msgstr ""
+msgstr "<b>Tipe</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:630
+#, fuzzy
+#| msgid "<b>Notes</b>"
 msgid "<b>Lines</b>"
-msgstr ""
+msgstr "<b>Garis</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:666
+#, fuzzy
+#| msgid "<b>Period</b>"
 msgid "<b>Background</b>"
-msgstr ""
+msgstr "<b>Latar Belakang</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:723
 msgid "<b>Text</b>"
-msgstr ""
+msgstr "<b>Teks</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:754
 msgid "Save to Project"
@@ -909,19 +1063,23 @@ msgid "Save to File"
 msgstr "Simpan ke Berkas"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.DrawingTool.cs:857
+#, fuzzy
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EditCategoryDialog.cs:16
+#, fuzzy
+#| msgid "Video Properties"
 msgid "Properties"
-msgstr ""
+msgstr "Tag (tertanam)"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EndCaptureDialog.cs:58
 msgid ""
 "A capture project is actually running.\n"
 "You can continue with the current capture, cancel it or save your project. \n"
 "\n"
-"<b>Warning: If you cancel the current project all your changes will be lost.</b>"
+"<b>Warning: If you cancel the current project all your changes will be lost."
+"</b>"
 msgstr ""
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EndCaptureDialog.cs:87
@@ -942,82 +1100,96 @@ msgid "Select template name"
 msgstr "Pilih nama templat"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EntryDialog.cs:76
+#, fuzzy
 msgid "Copy existent template:"
-msgstr ""
+msgstr "_Template:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EntryDialog.cs:94
 msgid "Players:"
 msgstr "Pemain:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EventTypeTagsEditor.cs:20
+#, fuzzy
 msgid "Edit event subcategory tags"
-msgstr ""
+msgstr "tag"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.FramesCaptureProgressDialog.cs:22
 msgid "Capture Progress"
 msgstr "Kemajuan Tangkap"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.HotKeySelectorDialog.cs:16
+#, fuzzy
 msgid "Select a HotKey"
-msgstr ""
+msgstr "Kombinasi tombol cepat"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.HotKeySelectorDialog.cs:29
+#, fuzzy
 msgid "Press a key combination..."
-msgstr ""
+msgstr "Tekan dan tahan kombinasi tombol yang diinginkan."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.PlayEditor.cs:44
+#, fuzzy
 msgid "Edit event details"
-msgstr ""
+msgstr "Sunting _Rincian…"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.PlayEditor.cs:101
 msgid "<b>Name</b>"
-msgstr ""
+msgstr "<b>Nama</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.PlayEditor.cs:126
 msgid "<b>Notes</b>"
 msgstr "<b>Catatan</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.RenderingJobsDialog.cs:74
+#, fuzzy
 msgid "C_lear finished jobs"
-msgstr ""
+msgstr "_Bersihkan Semua"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.RenderingJobsDialog.cs:100
+#, fuzzy
 msgid "_Cancel job"
-msgstr ""
+msgstr "Pencetakan Batal"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.RenderingJobsDialog.cs:126
+#, fuzzy
 msgid "Retry job"
-msgstr ""
+msgstr "_Coba"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SnapshotsDialog.cs:58
+#, fuzzy
 msgid "Event:"
-msgstr ""
+msgstr "K_ejadian:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SnapshotsDialog.cs:66
+#, fuzzy
 msgid "Interval (frames/s):"
-msgstr ""
+msgstr "_Interval:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SnapshotsDialog.cs:74
+#, fuzzy
 msgid "Series Name:"
-msgstr ""
+msgstr "Nama seri"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SnapshotsDialog.cs:128
+#, fuzzy
 msgid "Export to PNG images"
-msgstr ""
+msgstr "Pilihan Ekspor PNG"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SubstitutionsEditor.cs:71
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SubstitutionsEditor.cs:72
 msgid "<b>Player in</b>"
-msgstr ""
+msgstr "<b>Pemain masuk</b>"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SubstitutionsEditor.cs:93
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SubstitutionsEditor.cs:95
 msgid "<b>Player out</b>"
-msgstr ""
+msgstr "<b>Pemain keluar</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.UpdateDialog.cs:37
 msgid ""
 "\n"
 "A new version of LongoMatch has been released at www.ylatuya.es!\n"
-msgstr "\nSebuah versi baru LongoMatch telah dirilis di www.ylatuya.es!\n"
+msgstr ""
+"\n"
+"Sebuah versi baru LongoMatch telah dirilis di www.ylatuya.es!\n"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.UpdateDialog.cs:47
 msgid "The new version is "
@@ -1027,24 +1199,29 @@ msgstr "Versi baru adalah"
 msgid ""
 "\n"
 "You can download it using this direct link:"
-msgstr "\nAnda dapat mengunduhnya melalui taut langsung ini:"
+msgstr ""
+"\n"
+"Anda dapat mengunduhnya melalui taut langsung ini:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:49
+#, fuzzy
 msgid "Video converter tool"
-msgstr ""
+msgstr "Pengubah frekwensi"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:139
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:140
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:192
 msgid "File name: "
 msgstr "Nama berkas:"
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:150
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:151
+#, fuzzy
 msgid "Size: "
-msgstr ""
+msgstr "Ukuran: "
 
-#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:158
+#: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoConversionTool.cs:159
+#, fuzzy
 msgid "Bitrate: "
-msgstr ""
+msgstr "bitrate"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:56
 msgid "Video Properties"
@@ -1059,8 +1236,9 @@ msgid "Image format: "
 msgstr "Format citra:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:128
+#, fuzzy
 msgid "Encoding Format:"
-msgstr ""
+msgstr "Tanpa pengkodean"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.VideoEditionProperties.cs:176
 msgid "Split output in one file per playlist element"
@@ -1105,21 +1283,28 @@ msgid "Projects Manager"
 msgstr "Manajer Projek"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:101
+#, fuzzy
 msgid "Database Manager"
 msgstr ""
+"Bila lokasi berkas telah berubah cobalah menyuntingnya dengan manajer basis "
+"data."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:103
+#, fuzzy
 msgid "Analysis Dashboards Manager"
-msgstr ""
+msgstr "_Analisa Fourier..."
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:104
+#, fuzzy
+#| msgid "Databases Manager"
 msgid "Dashboards Manager"
-msgstr ""
+msgstr "_Manajer:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:106
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:107
+#, fuzzy
 msgid "_View"
-msgstr ""
+msgstr "_Tilik"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:109
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:110
@@ -1145,18 +1330,22 @@ msgstr "Ihw_al"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:122
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:124
+#, fuzzy
 msgid "Export Project To CSV File"
-msgstr ""
+msgstr "Ekspor projek ke berkas CSV"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:127
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:128
+#, fuzzy
+#| msgid "Templates Manager"
 msgid "Teams Manager"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:133
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:134
+#, fuzzy
 msgid "_Import Project"
-msgstr ""
+msgstr "Impor projek"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:136
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:137
@@ -1167,18 +1356,21 @@ msgstr "Ekspor Projek"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:145
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:146
+#, fuzzy
 msgid "Export to project file"
-msgstr ""
+msgstr "Ekspor projek ke berkas CSV"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:148
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:149
+#, fuzzy
 msgid "Import from file"
-msgstr ""
+msgstr "Impor dari berkas…"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:151
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:152
+#, fuzzy
 msgid "Video Converter Tool"
-msgstr ""
+msgstr "Pengubah frekwensi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:154
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:155
@@ -1193,29 +1385,37 @@ msgstr "Preferensi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:160
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:162
+#, fuzzy
 msgid "Show project stats"
-msgstr ""
+msgstr "Tampilkan sebuah jendela di panel samping"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:164
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:165
+#, fuzzy
+#| msgid "Drawing Tool"
 msgid "Migration Tool"
-msgstr ""
+msgstr "Alat"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:256
+#, fuzzy
+#| msgid "Video codec"
 msgid "Video file"
-msgstr ""
+msgstr "Mengonversi berkas video menjadi MPEG2"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:297
+#, fuzzy
 msgid "Capture device"
-msgstr ""
+msgstr "Tangkap"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:338
+#, fuzzy
 msgid "Fake capture device"
-msgstr ""
+msgstr "Tangkap"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:379
+#, fuzzy
 msgid "Ip camera"
-msgstr ""
+msgstr "IP"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:436
 #: ../LongoMatch.GUI/Gui/Component/ProjectListWidget.cs:176
@@ -1228,8 +1428,10 @@ msgid "Date"
 msgstr "Tanggal"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:472
+#, fuzzy
+#| msgid "Position"
 msgid "Description"
-msgstr ""
+msgstr "Deskripsi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:512
 #: ../LongoMatch.GUI/Gui/Component/ProjectListWidget.cs:177
@@ -1239,25 +1441,33 @@ msgstr "Musim"
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:585
 #: ../LongoMatch.GUI/Gui/Component/MediaFileChooser.cs:175
 #: ../LongoMatch.GUI.Multimedia/MultimediaToolkit.cs:34
-#: ../LongoMatch.Plugins/CSVExporter.cs:60
+#: ../LongoMatch.Plugins/CSVExporter.cs:70
 msgid "Output file"
 msgstr "Berkas keluaran"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:615
+#, fuzzy
+#| msgid "URL:"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:634
+#, fuzzy
+#| msgid "Device:"
 msgid "Device"
-msgstr ""
+msgstr "Perangkat"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:663
+#, fuzzy
+#| msgid "Image format"
 msgid "Device format"
-msgstr ""
+msgstr "Format perangkat yang dipilih"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:703
+#, fuzzy
+#| msgid "Output size: "
 msgid "Output size"
-msgstr ""
+msgstr "Ukuran keluaran:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:733
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:85
@@ -1265,17 +1475,21 @@ msgid "Format"
 msgstr "Format"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:760
+#, fuzzy
 msgid "Dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:810
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.NewProjectPanel.cs:877
+#, fuzzy
 msgid "Tactics"
-msgstr ""
+msgstr "Taktik & Strategi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.ProjectsManagerPanel.cs:169
+#, fuzzy
+#| msgid "Duration"
 msgid "Information"
-msgstr ""
+msgstr "Informasi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.ProjectsManagerPanel.cs:197
 msgid "Competition:"
@@ -1286,36 +1500,43 @@ msgid "Date:"
 msgstr "Tanggal:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.ProjectsManagerPanel.cs:263
+#, fuzzy
 msgid "Analysis Template:"
-msgstr ""
+msgstr "Analisa Fourier"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.ProjectsManagerPanel.cs:285
 msgid "Season:"
 msgstr "Musim:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.ProjectsManagerPanel.cs:312
+#, fuzzy
+#| msgid "Video"
 msgid "Videos"
-msgstr ""
+msgstr "Video"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.SportsTemplatesPanel.cs:148
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:252
+#, fuzzy
 msgid "Manage dashboards"
-msgstr ""
+msgstr "_Kelola Kalender"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.SportsTemplatesPanel.cs:249
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:272
+#, fuzzy
 msgid "Manage dashboard buttons"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.TeamsTemplatesPanel.cs:130
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:182
+#, fuzzy
 msgid "Manage teams"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Panel.TeamsTemplatesPanel.cs:216
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:196
+#, fuzzy
 msgid "Manage players"
-msgstr ""
+msgstr "Pemain:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Popup.TransparentDrawingArea.cs:14
 msgid "TransparentDrawingArea"
@@ -1327,31 +1548,36 @@ msgstr "Kategori"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:112
 msgid ""
-"You are about to delete a category and all the plays added to this category."
-" Do you want to proceed?"
+"You are about to delete a category and all the plays added to this category. "
+"Do you want to proceed?"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:119
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:126
+#, fuzzy
 msgid "A template needs at least one category"
-msgstr ""
+msgstr "A template needs at least one category"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:152
+#, fuzzy
 msgid "Field background"
-msgstr ""
+msgstr "Latar _belakang aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:155
+#, fuzzy
 msgid "Half field background"
-msgstr ""
+msgstr "<b>Posisi setengah lapangan</b>"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:158
+#, fuzzy
 msgid "Goal background"
-msgstr ""
+msgstr "Sasaran"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:161
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:236
+#, fuzzy
 msgid "Game periods"
-msgstr ""
+msgstr "_Permainan"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:167
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:178
@@ -1364,50 +1590,60 @@ msgid "Invalid content. Periods must be separated by spaces (\"1 2 ex1 ex2\")"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Component/CodingWidget.cs:273
+#, fuzzy
 msgid "Timeline"
-msgstr ""
+msgstr "_Tampil"
 
 #: ../LongoMatch.GUI/Gui/Component/CodingWidget.cs:275
+#, fuzzy
 msgid "Analysis dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Component/CodingWidget.cs:277
+#, fuzzy
 msgid "Zonal tags viewer"
-msgstr ""
+msgstr "Penampil"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:270
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:282
+#, fuzzy
 msgid "Do you want to delete: "
-msgstr ""
+msgstr "Apakah ingin menghapus projek?"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:300
+#, fuzzy
 msgid "Edit dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:308
+#, fuzzy
 msgid "Edit action links"
-msgstr ""
+msgstr "Sunting Taut"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:316
+#, fuzzy
 msgid "Disable popup window"
-msgstr ""
+msgstr "Pilih jendela dari popup tab"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:323
+#, fuzzy
 msgid "Fit dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:328
+#, fuzzy
 msgid "Fill dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:333
+#, fuzzy
 msgid "1:1 dashboard"
-msgstr ""
+msgstr "1×1 (Bujur sangkar)"
 
-#: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:460
-#: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:466
+#: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:464
+#: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:470
 #: ../LongoMatch.GUI/Gui/Component/Timeline.cs:222
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:524
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:525
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:104
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:135
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:66
@@ -1416,107 +1652,133 @@ msgstr ""
 msgid "Delete"
 msgstr "Hapus"
 
-#: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:554
+#: ../LongoMatch.GUI/Gui/Component/DashboardWidget.cs:558
+#, fuzzy
+#| msgid "Could not parse file:"
 msgid "Could not parse game periods."
-msgstr ""
+msgstr "Tak bisa mengurai respon server"
 
 #: ../LongoMatch.GUI/Gui/Component/GameUnitWidget.cs:62
 msgid "Time: "
 msgstr "Waktu:"
 
 #: ../LongoMatch.GUI/Gui/Component/MediaFileChooser.cs:59
+#, fuzzy
 msgid "Edit to change camera name"
-msgstr ""
+msgstr "sunting nama: %s\n"
 
 #: ../LongoMatch.GUI/Gui/Component/MediaFileChooser.cs:144
+#, fuzzy
+#| msgid "Select a folder"
 msgid "Select folder..."
-msgstr ""
+msgstr "Pilih Folder"
 
 #: ../LongoMatch.GUI/Gui/Component/MediaFileChooser.cs:146
+#, fuzzy
+#| msgid "Select a folder"
 msgid "Select file..."
-msgstr ""
+msgstr "Pilih berka_s"
 
 #: ../LongoMatch.GUI/Gui/Component/MediaFileChooser.cs:182
+#, fuzzy
+#| msgid "Output folder ..."
 msgid "Output folder"
-msgstr ""
+msgstr "Folder keluaran ..."
 
 #: ../LongoMatch.GUI/Gui/Component/MediaFileSetSelection.cs:97
 #: ../LongoMatch.GUI/Gui/Component/MediaFileSetSelection.cs:99
+#, fuzzy
 msgid "Angle"
-msgstr ""
+msgstr "Sudut"
 
 #. Force tooltips to be translatable as there seems to be a bug in stetic
 #. code generation for translatable tooltips.
 #: ../LongoMatch.GUI/Gui/Component/PlayListWidget.cs:45
+#, fuzzy
+#| msgid "New playlist"
 msgid "Create a new playlist"
-msgstr ""
+msgstr "Buat daftar putar baru yang kosong"
 
 #: ../LongoMatch.GUI/Gui/Component/PlayListWidget.cs:46
+#, fuzzy
 msgid "Export the playlist to new video file"
-msgstr ""
+msgstr "Projek baru memakai suatu berkas video"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:143
+#, fuzzy
 msgid "Categories filter"
-msgstr ""
+msgstr "Kategori:"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:146
+#, fuzzy
 msgid "Players filter"
-msgstr ""
+msgstr "Pemain:"
 
-#: ../LongoMatch.GUI/Gui/Component/SynchronizationWidget.cs:459
+#: ../LongoMatch.GUI/Gui/Component/SynchronizationWidget.cs:429
 msgid ""
 "Drag the bars in the timeline to synchronize secondary video files with the "
 "main video"
 msgstr ""
 
-#: ../LongoMatch.GUI/Gui/Component/SynchronizationWidget.cs:463
+#: ../LongoMatch.GUI/Gui/Component/SynchronizationWidget.cs:433
+#, fuzzy
 msgid "Camera out of scope"
-msgstr ""
+msgstr "Ekspresi luar skup"
 
-#: ../LongoMatch.GUI/Gui/Component/SynchronizationWidget.cs:495
+#: ../LongoMatch.GUI/Gui/Component/SynchronizationWidget.cs:465
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:94
+#, fuzzy
 msgid "Offset"
-msgstr ""
+msgstr "Ofset"
 
 #: ../LongoMatch.GUI/Gui/Component/TeamTemplateEditor.cs:125
+#, fuzzy
 msgid "Do you want to delete player: "
-msgstr ""
+msgstr "Apakah ingin menghapus projek?"
 
 #: ../LongoMatch.GUI/Gui/Component/TeamTemplateEditor.cs:258
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:628
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:641
+#, fuzzy
+#| msgid "Could not parse file:"
 msgid "Could not parse tactics string"
-msgstr ""
+msgstr "Tak bisa mengurai respon server"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:59
+#, fuzzy
 msgid "play"
-msgstr ""
+msgstr "Mainkan"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:71
+#, fuzzy
 msgid "Edit tags"
-msgstr ""
+msgstr "_Tag:"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:72
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:106
+#, fuzzy
 msgid "Add to playlist"
-msgstr ""
+msgstr "_Tambah ke Daftar Putar"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:73
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:108
+#, fuzzy
 msgid "Export to video file"
-msgstr ""
+msgstr "Ekspor ke Berkas"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:74
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:221
+#, fuzzy
 msgid "Export to PGN images"
-msgstr ""
+msgstr "Ekspor"
 
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:66
+#, fuzzy
 msgid "No video file associated yet for live project"
-msgstr ""
+msgstr "Projek tak ada atau path tak valid"
 
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:80
 msgid "Duration"
-msgstr ""
+msgstr "Durasi"
 
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:83
 msgid "Missing duration info, reload this file."
@@ -1524,195 +1786,235 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:87
 msgid "Video codec"
-msgstr ""
+msgstr "Kodek video"
 
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:89
 msgid "Audio codec"
-msgstr ""
+msgstr "Kodek audio"
 
 #: ../LongoMatch.GUI/Gui/Component/VideoFileInfo.cs:91
+#, fuzzy
 msgid "Container"
-msgstr ""
+msgstr "Kontainer"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:47
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:48
+#, fuzzy
 msgid "Active database"
-msgstr ""
+msgstr "Aktif"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:63
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:64
+#, fuzzy
 msgid "Last backup"
-msgstr ""
+msgstr "_Backup"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:71
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:72
 msgid "Projects count"
 msgstr "Cacah projek"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:140
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:141
 msgid "Database name"
 msgstr "Nama basis data"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:145
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:146
 msgid "A database already exists with this name"
 msgstr "Sebuah basis data dengan nama ini sudah ada"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:164
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:165
 msgid "This database is the active one and can't be deleted"
 msgstr "Basis data ini adalah yang aktif dan tak dapat dihapus"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:170
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:171
 msgid "Do you really want to delete the database: "
 msgstr "Anda memang ingin menghapus identitas basis data:"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:184
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:185
+#, fuzzy
 msgid "Backup successful"
-msgstr ""
+msgstr "Verifikasi cadangan Anda sukses."
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:186
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:187
+#, fuzzy
 msgid "Could not create backup"
-msgstr ""
+msgstr "Tak dapat membuat berkas backup ketika menyimpan \"%s\""
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:204
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:205
+#, fuzzy
 msgid "Scanning database..."
-msgstr ""
+msgstr "Memindai..."
 
-#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:217
+#: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:218
+#, fuzzy
 msgid "Database scanned succesfully."
-msgstr ""
+msgstr "Basis _data:"
 
 #. Force tooltips to be translatable as there seems to be a bug in stetic
 #. code generation for translatable tooltips.
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:95
-msgid "Selection tool"
-msgstr ""
-
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:96
-msgid "Rubber tool"
-msgstr ""
+#, fuzzy
+#| msgid "Select all"
+msgid "Selection tool"
+msgstr "Pilihan"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:97
-msgid "Pencil tool"
-msgstr ""
+#, fuzzy
+msgid "Rubber tool"
+msgstr "Pemilik Karet"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:98
-msgid "Text tool"
-msgstr ""
+#, fuzzy
+msgid "Pencil tool"
+msgstr "Alat"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:99
-msgid "Line tool"
-msgstr ""
+#, fuzzy
+msgid "Text tool"
+msgstr "Alat"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:100
-msgid "Cross tool"
-msgstr ""
+#, fuzzy
+msgid "Line tool"
+msgstr "Alat"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:101
-msgid "Rectangle tool"
-msgstr ""
+#, fuzzy
+msgid "Cross tool"
+msgstr "_Silang"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:102
-msgid "Ellipse tool"
-msgstr ""
+#, fuzzy
+msgid "Rectangle tool"
+msgstr "Persegi Panjang"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:103
-msgid "Filled rectangle tool"
-msgstr ""
+#, fuzzy
+msgid "Ellipse tool"
+msgstr "Elips"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:104
-msgid "Filled ellipse tool"
-msgstr ""
+#, fuzzy
+msgid "Filled rectangle tool"
+msgstr "Persegi Panjang"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:105
-msgid "Player tool"
-msgstr ""
+#, fuzzy
+msgid "Filled ellipse tool"
+msgstr "Elips Berisi"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:106
-msgid "Index tool"
-msgstr ""
+#, fuzzy
+#| msgid "Player Details"
+msgid "Player tool"
+msgstr "Alat"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:107
-msgid "Angle tool"
-msgstr ""
+#, fuzzy
+msgid "Index tool"
+msgstr "Indeks"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:108
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:109
-msgid "Change the line style"
-msgstr ""
+#, fuzzy
+msgid "Angle tool"
+msgstr "Alat"
 
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:109
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:110
-msgid "Clear all drawings"
-msgstr ""
+#, fuzzy
+msgid "Change the line style"
+msgstr "Properti Gaya Garis"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:111
+#, fuzzy
+msgid "Clear all drawings"
+msgstr "Bersihkan semua pemberitahuan"
+
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:112
 msgid "Zoom tool. Click to zoom in, Alt+Shift to zoom out"
 msgstr ""
 
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:262
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:263
+#, fuzzy
 msgid "Text"
-msgstr ""
+msgstr "Teks:"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:271
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:272
+#, fuzzy
+#| msgid "Select a folder"
 msgid "Select player"
-msgstr ""
+msgstr "Pilih suatu folder"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:338
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:339
+#, fuzzy
 msgid "Do you want to clear the drawing?"
-msgstr ""
+msgstr "Apakah Anda ingin tetap menyuntingnya?"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:444
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:445
 msgid "Save File as..."
 msgstr "Simpan Berkas sebagai..."
 
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:528
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:529
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:134
 msgid "Edit"
 msgstr "Sunting"
 
-#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:538
+#: ../LongoMatch.GUI/Gui/Dialog/DrawingTool.cs:539
+#, fuzzy
 msgid "Do you want to close the current drawing?"
-msgstr ""
+msgstr "Apakah Anda ingin menutup koneksi '%s'?"
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:109
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:110
 msgid "Do you want to remove this subcategory and all its tags?"
 msgstr ""
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:118
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:119
+#, fuzzy
 msgid "Do you want to remove this tag?"
-msgstr ""
+msgstr "Anda ingin memutuskan sambungan?"
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:130
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:131
+#, fuzzy
 msgid "New tag"
-msgstr ""
+msgstr "Buat tag baru pada komit yang dipilih"
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:148
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:149
 msgid "<b>Subcategory name:</b>"
-msgstr ""
+msgstr "<b>Nama subkategori:</b>"
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:223
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:224
+#, fuzzy
+#| msgid "_Add subcategory"
 msgid "Add new subcategory"
-msgstr ""
+msgstr "T_ambah subkategori"
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:226
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:227
+#, fuzzy
+#| msgid "_Add subcategory"
 msgid "New subcategory"
-msgstr ""
+msgstr "T_ambah subkategori"
 
-#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:232
+#: ../LongoMatch.GUI/Gui/Dialog/EventTypeTagsEditor.cs:233
+#, fuzzy
+#| msgid "Add new "
 msgid "Add new tag"
-msgstr ""
+msgstr "tambah tag"
 
-#: ../LongoMatch.GUI/Gui/Dialog/FramesCaptureProgressDialog.cs:51
+#: ../LongoMatch.GUI/Gui/Dialog/FramesCaptureProgressDialog.cs:52
+#, fuzzy
 msgid "Capturing frame: "
-msgstr ""
+msgstr "Menangkap cuplikan layar"
 
-#: ../LongoMatch.GUI/Gui/Dialog/FramesCaptureProgressDialog.cs:60
+#: ../LongoMatch.GUI/Gui/Dialog/FramesCaptureProgressDialog.cs:61
+#, fuzzy
 msgid "Done"
-msgstr ""
+msgstr "Selesai"
 
-#: ../LongoMatch.GUI/Gui/Dialog/HotKeySelectorDialog.cs:78
+#: ../LongoMatch.GUI/Gui/Dialog/HotKeySelectorDialog.cs:79
 msgid "is not a valid key modifier: Alt, Shift or Ctrl"
 msgstr ""
 
-#: ../LongoMatch.GUI/Gui/Dialog/PlayEditor.cs:109
+#: ../LongoMatch.GUI/Gui/Dialog/PlayEditor.cs:110
+#, fuzzy
 msgid "Common tags"
-msgstr ""
+msgstr "_Tag:"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:69
 msgid "The Project has been edited, do you want to save the changes?"
@@ -1720,8 +2022,9 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:99
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:280
+#, fuzzy
 msgid "This Project is actually in use."
-msgstr ""
+msgstr "Silakan pilih satu backend proyek untuk digunakan."
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:100
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:281
@@ -1730,24 +2033,31 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:103
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:284
+#, fuzzy
 msgid "Do you really want to delete:"
 msgstr ""
+"Apakah Anda yakin hendak menghapus skrip ini? Data ini tak dapat dipulihkan"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:159
 msgid "The Project you are trying to load is actually in use."
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:159
+#, fuzzy
 msgid "Close it first to edit it"
-msgstr ""
+msgstr "Sunting perintah sebagai skrip di Anjuta saat ditutup"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:178
 msgid "Save Project"
 msgstr "Simpan Projek"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:27
+#, fuzzy
 msgid "Pause or play"
 msgstr ""
+"Tombol-tombol kendali ubah posisi memungkinkan Anda pindah ke trek "
+"selanjutnya atau sebelumnya, dan untuk mengistirahatkan atau memutar suatu "
+"film atau lagu."
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:28
 msgid "Step forward one frame"
@@ -1770,8 +2080,9 @@ msgid "Templates Files"
 msgstr "Berkas Templat"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:166
+#, fuzzy
 msgid "The template has been modified. Do you want to save it? "
-msgstr ""
+msgstr "Berkas %s telah berubah. Apakah Anda hendak memuat ulang?"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:188
 msgid "Template name"
@@ -1782,8 +2093,9 @@ msgid "You cannot create a template with a void name"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:206
+#, fuzzy
 msgid "A template with this name already exists"
-msgstr ""
+msgstr "Sebuah basis data dengan nama ini sudah ada"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:227
 msgid "You can't delete the 'default' template"
@@ -1791,71 +2103,90 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:232
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:310
+#, fuzzy
 msgid "Do you really want to delete the template: "
-msgstr ""
+msgstr "Anda memang ingin menghapus identitas basis data:"
 
 #: ../LongoMatch.GUI/Gui/Dialog/VideoConversionTool.cs:149
 msgid "Add file"
 msgstr "Tambah berkas"
 
-#: ../LongoMatch.GUI/Gui/Dialog/VideoEditionProperties.cs:130
-#: ../LongoMatch.GUI/Gui/GUIToolkit.cs:203
+#: ../LongoMatch.GUI/Gui/Dialog/VideoEditionProperties.cs:131
+#: ../LongoMatch.GUI/Gui/GUIToolkit.cs:207
+#, fuzzy
 msgid "Please, select a video file."
-msgstr ""
+msgstr "Harap pilih suatu berkas .shape"
 
-#: ../LongoMatch.GUI/Gui/Dialog/VideoEditionProperties.cs:132
-#: ../LongoMatch.GUI/Gui/GUIToolkit.cs:206
+#: ../LongoMatch.GUI/Gui/Dialog/VideoEditionProperties.cs:133
+#: ../LongoMatch.GUI/Gui/GUIToolkit.cs:210
+#, fuzzy
 msgid "Please, select an output directory."
-msgstr ""
+msgstr "Direktori keluaran"
 
-#: ../LongoMatch.GUI/Gui/GUIToolkit.cs:193
+#: ../LongoMatch.GUI/Gui/GUIToolkit.cs:198
+#, fuzzy
 msgid "The playlist you want to render is empty."
-msgstr ""
+msgstr "Apakah Anda benar-benar ingin mengosongkan pratinjau iris?"
 
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:441
+#, fuzzy
 msgid "Select video files"
-msgstr ""
+msgstr "Putar berkas audio dan video."
 
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:449
+#, fuzzy
 msgid "Some video files are missing for this project"
-msgstr ""
+msgstr "Ada beberapa berkas hilang dari POTFILES.in: %s"
 
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:452
 msgid "Some video files are still missing for this project."
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:456
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:380
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:384
 msgid "You need at least 1 video file for the main angle"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Menu/PeriodsMenu.cs:52
+#, fuzzy
 msgid "Add period"
-msgstr ""
+msgstr "_Periode:"
 
 #: ../LongoMatch.GUI/Gui/Menu/PeriodsMenu.cs:54
+#, fuzzy
+#| msgid "Period"
 msgid "Period name"
-msgstr ""
+msgstr "_Periode:"
 
 #: ../LongoMatch.GUI/Gui/Menu/PeriodsMenu.cs:72
+#, fuzzy
+#| msgid "Delete "
 msgid "Delete period"
-msgstr ""
+msgstr "_Periode:"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:73
+#, fuzzy
+#| msgid "Add new "
 msgid "Add new event"
-msgstr ""
+msgstr "Acara Baru S_epanjang Hari…"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:110
+#, fuzzy
 msgid "Duplicate "
-msgstr ""
+msgstr "Gan_dakan"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:133
+#, fuzzy
+#| msgid "Drawing Tool"
 msgid "Drawing "
-msgstr ""
+msgstr "Menggambar"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:171
+#, fuzzy
 msgid "Create new playlist..."
 msgstr ""
+"Tambahkan butir-butir yang dipilih ke daftar putar atau buat daftar putar "
+"baru dari pilihan"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:192
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:84
@@ -1863,317 +2194,403 @@ msgid "Edit properties"
 msgstr "Sunting properti"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:200
+#, fuzzy
 msgid "Move to"
-msgstr ""
+msgstr "Pindah Ke"
 
 #: ../LongoMatch.GUI/Gui/Menu/PlaysMenu.cs:211
+#, fuzzy
+#| msgid "Drawing Tool"
 msgid "Drawings"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Atur kursor pada posisi objek "
+"sebelumnya sesuai tipe yang dipilih.</ahelp>"
 
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:302
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:306
+#, fuzzy
 msgid "Unknown"
-msgstr ""
-
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:364
-msgid "PROJECT TYPE"
-msgstr ""
-
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:366
-msgid "PROJECT PROPERTIES"
-msgstr ""
+msgstr "Tidak Dikenal"
 
 #: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:368
+#, fuzzy
+msgid "PROJECT TYPE"
+msgstr "Tipe Projek: %s\n"
+
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:370
+#, fuzzy
+msgid "PROJECT PROPERTIES"
+msgstr "Properti Projek"
+
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:372
+#, fuzzy
 msgid "PERIODS SYNCHRONIZATION"
-msgstr ""
+msgstr "_Cacah Perioda:"
 
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:395
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:399
+#, fuzzy
 msgid "No output video file"
-msgstr ""
+msgstr "Menganalisis berkas video:"
 
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:401
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:405
+#, fuzzy
 msgid "No input URI"
-msgstr ""
+msgstr "uri"
 
-#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:512
+#: ../LongoMatch.GUI/Gui/Panel/NewProjectPanel.cs:516
+#, fuzzy
 msgid "No capture devices found in the system"
-msgstr ""
+msgstr "Tak menemukan perangkat MTP"
 
 #: ../LongoMatch.GUI/Gui/Panel/OpenProjectPanel.cs:43
+#, fuzzy
 msgid "OPEN PROJECT"
-msgstr ""
+msgstr "Buka Projek"
 
 #: ../LongoMatch.GUI/Gui/Panel/PreferencesPanel.cs:50
+#, fuzzy
 msgid "PREFERENCES"
-msgstr ""
+msgstr "_Preferensi..."
 
 #: ../LongoMatch.GUI/Gui/Panel/PreferencesPanel.cs:61
 msgid "General"
 msgstr "Umum"
 
 #: ../LongoMatch.GUI/Gui/Panel/PreferencesPanel.cs:64
+#, fuzzy
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Pintasan papan tik"
 
 #: ../LongoMatch.GUI/Gui/Panel/PreferencesPanel.cs:67
 msgid "Video"
 msgstr "Video"
 
 #: ../LongoMatch.GUI/Gui/Panel/PreferencesPanel.cs:70
+#, fuzzy
 msgid "Live analysis"
-msgstr ""
+msgstr "Analisa Fourier"
 
 #: ../LongoMatch.GUI/Gui/Panel/PreferencesPanel.cs:73
+#, fuzzy
 msgid "Plugins"
-msgstr ""
+msgstr "Pengaya"
 
 #. Force tooltips to be translatable as there seems to be a bug in stetic
 #. code generation for translatable tooltips.
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:63
+#, fuzzy
 msgid "Save"
-msgstr ""
+msgstr "Simpan?"
 
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:64
 msgid "Export"
-msgstr ""
+msgstr "Ekspor"
 
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:65
 #: ../LongoMatch.GUI/Gui/Panel/WelcomePanel.cs:36
+#, fuzzy
+#| msgid "Open file"
 msgid "Open"
-msgstr ""
+msgstr "Buk_a"
 
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:85
+#, fuzzy
 msgid "PROJECTS MANAGER"
-msgstr ""
+msgstr "Manajer Projek"
 
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:114
+#, fuzzy
 msgid "Do you want to save the current project?"
-msgstr ""
+msgstr "Apakah Anda benar-benar ingin mengosongkan projek ini?"
 
 #: ../LongoMatch.GUI/Gui/Panel/ProjectsManagerPanel.cs:249
+#, fuzzy
+#| msgid "Export Project"
 msgid "Export project"
-msgstr ""
+msgstr "Ekspor Projek"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:53
+#, fuzzy
 msgid "ANALYSIS DASHBOARDS MANAGER"
-msgstr ""
+msgstr "_Analisa Fourier..."
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:162
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:142
+#, fuzzy
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:191
 msgid "System dashboards can't be edited, do you want to create a copy?"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:200
-#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:433
+#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:432
+#, fuzzy
 msgid "A dashboard with the same name already exists"
-msgstr ""
+msgstr "Alat dengan nama yang sama sudah ada!"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:227
+#, fuzzy
 msgid "Do you want to save the current dashboard"
-msgstr ""
+msgstr "Apakah Anda benar-benar ingin mengosongkan projek ini?"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:240
+#, fuzzy
 msgid "New dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #. Show a file chooser dialog to select the file to import
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:242
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:322
+#, fuzzy
 msgid "Import dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:244
+#, fuzzy
+#| msgid "Delete "
 msgid "Delete dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:246
+#, fuzzy
 msgid "Save dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:258
+#, fuzzy
+#| msgid "_Add subcategory"
 msgid "Add category button"
-msgstr ""
+msgstr "Kategori"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:260
+#, fuzzy
+#| msgid "Add tag"
 msgid "Add tag button"
-msgstr ""
+msgstr "tambah tag"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:262
+#, fuzzy
 msgid "Add score button"
-msgstr ""
+msgstr "menurut skor"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:264
+#, fuzzy
 msgid "Add timer button"
-msgstr ""
+msgstr "Tombol tambah"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:266
+#, fuzzy
 msgid "Add card button"
-msgstr ""
+msgstr "Tombol tambah"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:285
+#, fuzzy
 msgid "Could not load dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:301
+#, fuzzy
+#| msgid "Do you really want to delete the database: "
 msgid "Do you really want to delete the dashboard: "
-msgstr ""
+msgstr "Anda memang ingin menghapus identitas basis data:"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:319
+#, fuzzy
 msgid "Dashboard files"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:335
+#, fuzzy
+#| msgid "Database name"
 msgid "Dashboard name:"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:336
+#, fuzzy
 msgid "Name conflict"
-msgstr ""
+msgstr "Konflik"
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:359
+#, fuzzy
 msgid "Error importing template:"
-msgstr ""
+msgstr "Galat Saat Mengimpor Berkas CSV"
+
+#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:373
+#, fuzzy
+msgid "New dasboard"
+msgstr "_Baru..."
 
 #: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:374
-msgid "New dasboard"
-msgstr ""
-
-#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:375
+#, fuzzy
 msgid "Event types:"
-msgstr ""
+msgstr "K_ejadian:"
 
-#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:380
+#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:379
+#, fuzzy
 msgid "The dashboard name is empty."
-msgstr ""
+msgstr "Dashboard aplikasi"
 
-#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:383
+#: ../LongoMatch.GUI/Gui/Panel/SportsTemplatesPanel.cs:382
+#, fuzzy
 msgid "The dashboard already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Katalog '%s' sudah ada, apakah Anda ingin menimpanya?"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:103
+#, fuzzy
 msgid "TEAMS MANAGER"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:172
-#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:331
+#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:330
+#, fuzzy
+#| msgid "New After"
 msgid "New team"
-msgstr ""
+msgstr "Bergabung ke suatu tim"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:174
+#, fuzzy
+#| msgid "Delete "
 msgid "Delete team"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:176
+#, fuzzy
+#| msgid "Save to File"
 msgid "Save team"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:228
 msgid "System teams can't be edited, do you want to create a copy?"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:237
-#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:389
+#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:388
+#, fuzzy
 msgid "A team with the same name already exists"
-msgstr ""
+msgstr "Alat dengan nama yang sama sudah ada!"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:264
+#, fuzzy
 msgid "Do you want to save the current template"
-msgstr ""
+msgstr "Sedang mengunduh. Anda ingin menyimpan tugas?"
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:292
+#, fuzzy
 msgid "Could not load team"
-msgstr ""
+msgstr "Tidak dapat memuat antarmuka pengguna port tim."
 
 #: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:306
+#, fuzzy
 msgid "System teams can't be deleted"
-msgstr ""
+msgstr "Grup akan dihapus dari sistem berkas.\n"
 
-#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:336
+#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:335
+#, fuzzy
 msgid "The template name is empty."
-msgstr ""
+msgstr "Nama templat"
 
-#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:339
+#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:338
+#, fuzzy
 msgid "The template can't be named 'default'."
-msgstr ""
+msgstr "Tak bisa menangani nilai baku bertipe '%s'"
 
-#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:342
+#: ../LongoMatch.GUI/Gui/Panel/TeamsTemplatesPanel.cs:341
+#, fuzzy
 msgid "The template already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Berkas \"%s\" sudah ada. Apakah Anda ingin menimpanya?"
 
 #: ../LongoMatch.GUI/Gui/Panel/WelcomePanel.cs:34
+#, fuzzy
 msgid "New"
-msgstr ""
+msgstr "Baru"
 
 #: ../LongoMatch.GUI/Gui/Panel/WelcomePanel.cs:38
+#, fuzzy
+#| msgid "Export"
 msgid "Import"
-msgstr ""
+msgstr "Impor"
 
 #: ../LongoMatch.GUI/Gui/Panel/WelcomePanel.cs:40
+#, fuzzy
+#| msgid "Projects Manager"
 msgid ""
 "Projects\n"
 "manager"
-msgstr ""
+msgstr "Manajer Projek"
 
 #: ../LongoMatch.GUI/Gui/Panel/WelcomePanel.cs:42
+#, fuzzy
 msgid ""
 "Analysis\n"
 "Dashboards\n"
 "manager"
-msgstr ""
+msgstr "_Analisa Fourier..."
 
 #: ../LongoMatch.GUI/Gui/Panel/WelcomePanel.cs:44
+#, fuzzy
+#| msgid "Templates Manager"
 msgid ""
 "Teams\n"
 "manager"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.GUI/Gui/TreeView/CategoriesFilterTreeView.cs:34
+#, fuzzy
 msgid "Category"
-msgstr ""
+msgstr "Kategori"
 
 #: ../LongoMatch.GUI/Gui/TreeView/CategoriesFilterTreeView.cs:56
+#, fuzzy
+#| msgid "Time:"
 msgid "Timers"
-msgstr ""
+msgstr "Atur pewaktu untuk memasak masakan Anda dengan benar"
 
 #: ../LongoMatch.GUI/Gui/TreeView/FilterBaseView.cs:71
+#, fuzzy
 msgid "Visible"
-msgstr ""
+msgstr "Terlihat"
 
 #: ../LongoMatch.GUI/Gui/TreeView/FilterBaseView.cs:90
 msgid "Select all"
 msgstr "Pilih semua"
 
 #: ../LongoMatch.GUI/Gui/TreeView/FilterBaseView.cs:91
+#, fuzzy
 msgid "Unselect all"
-msgstr ""
+msgstr "Pilih Tak Satupun"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:123
+#, fuzzy
 msgid "External video"
-msgstr ""
+msgstr "Eksternal"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:126
+#, fuzzy
 msgid "External image"
-msgstr ""
+msgstr "Eksternal"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:142
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:180
+#, fuzzy
 msgid "Edit name"
-msgstr ""
+msgstr "sunting nama: %s\n"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:153
+#, fuzzy
+#| msgid "New Before"
 msgid "Insert before"
-msgstr ""
+msgstr "Sisipkan"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:157
+#, fuzzy
 msgid "Insert after"
-msgstr ""
+msgstr "Setelah"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:190
+#, fuzzy
 msgid "Render"
-msgstr ""
+msgstr "Tema yang dipakai untuk merender entri."
 
 #: ../LongoMatch.GUI/Gui/TreeView/RenderingJobsTreeView.cs:34
 msgid "Job name"
@@ -2196,36 +2613,46 @@ msgid ""
 msgstr ""
 
 #: ../LongoMatch.GUI.Helpers/MessagesHelpers.cs:149
+#, fuzzy
 msgid "New version available"
 msgstr ""
+"Kini kami sedang tak bisa memeriksa apakah ada versi baru yang tersedia. "
+"Silakan coba lagi nanti."
 
 #: ../LongoMatch.GUI.Helpers/MessagesHelpers.cs:152
+#, fuzzy
+#| msgid "Change"
 msgid "Changes:"
-msgstr ""
+msgstr "Perubahan:"
 
 #: ../LongoMatch.GUI.Helpers/MessagesHelpers.cs:156
 msgid "Do not notify me again until next version"
 msgstr ""
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:58
+#, fuzzy
 msgid "Choose an image"
-msgstr ""
+msgstr "Pilih sebuah gambar"
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:70
+#, fuzzy
 msgid "Image file format not supported"
-msgstr ""
+msgstr "EXIF tidak didukung pada format berkas ini."
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:288
 msgid "Analyzing video file:"
 msgstr "Menganalisis berkas video:"
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:306
+#, fuzzy
+#| msgid "Could not parse file:"
 msgid "Timeout parsing file."
-msgstr ""
+msgstr "Mengurai berkas CSV %1"
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:308
+#, fuzzy
 msgid "This file doesn't contain a video stream."
-msgstr ""
+msgstr "Berkas tidak berisi kamus \"%s\"."
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:310
 msgid "This file contains a video stream but its length is 0."
@@ -2237,8 +2664,8 @@ msgstr "Buka berkas"
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:336
 msgid ""
-"This file is not in a supported format, convert it with the video conversion"
-" tool"
+"This file is not in a supported format, convert it with the video conversion "
+"tool"
 msgstr ""
 
 #: ../LongoMatch.GUI.Helpers/Misc.cs:340
@@ -2250,41 +2677,49 @@ msgstr ""
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.CapturerBin.cs:104
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.CapturerBin.cs:127
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.CapturerBin.cs:151
+#| msgid "<b></b>"
 msgid "<b>00</b>"
-msgstr ""
+msgstr "<b>00</b>"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.CapturerBin.cs:114
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.CapturerBin.cs:138
+#| msgid "<b></b>"
 msgid "<b>:</b>"
-msgstr ""
+msgstr "<b>:</b>"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerView.cs:246
+#, fuzzy
 msgid "Jump (s):"
-msgstr ""
+msgstr "_Lompat ke"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerView.cs:273
 msgid "Time:"
 msgstr "Waktu:"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerCapturerBin.cs:57
+#, fuzzy
 msgid "Replay"
-msgstr ""
+msgstr "_Putar"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerCapturerBin.cs:90
+#, fuzzy
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.VideoWindow.cs:31
+#, fuzzy
 msgid "Out of scope"
-msgstr ""
+msgstr "Ekspresi luar skup"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:70
+#, fuzzy
 msgid "Pause clock"
-msgstr ""
+msgstr "Jeda"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:71
+#, fuzzy
 msgid "Resume clock"
-msgstr ""
+msgstr "Jam"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:72
 #: ../LongoMatch.Services/ToolsManager.cs:72
@@ -2292,34 +2727,42 @@ msgid "Save project"
 msgstr "Simpan projek"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:74
+#, fuzzy
+#| msgid "Delete "
 msgid "Delete event"
-msgstr ""
+msgstr "Gagal menghapus suatu acara dalam kalender '{0}'"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:75
+#, fuzzy
 msgid "Replay event"
-msgstr ""
+msgstr "K_ejadian:"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:190
+#, fuzzy
 msgid "Period recording already started"
-msgstr ""
+msgstr "Sebuah transaksi telah dimulai"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:224
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:246
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:261
+#, fuzzy
 msgid "Period recording not started"
-msgstr ""
+msgstr "Perekaman"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:313
+#, fuzzy
 msgid "Do you want to finish the current capture?"
-msgstr ""
+msgstr "Apakah Anda benar-benar ingin mengosongkan diska saat ini?"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:321
+#, fuzzy
 msgid "Do you want to close and cancel the current capture?"
-msgstr ""
+msgstr "Apakah Anda ingin menutup koneksi '%s'?"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:433
+#, fuzzy
 msgid "Device disconnected. The capture will be paused"
-msgstr ""
+msgstr "Tak dapat memulai penangkapan sidik jari pada perangkat '%s'"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:436
 msgid "Device reconnected. Do you want to restart the capture?"
@@ -2328,24 +2771,30 @@ msgstr ""
 #. Force tooltips to be translatable as there seems to be a bug in stetic
 #. code generation for translatable tooltips.
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:79
+#, fuzzy
+#| msgid "Increase playback speed"
 msgid "Playback speed"
-msgstr ""
+msgstr "Naikkan kecepatan putar"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:82
+#, fuzzy
 msgid "Play"
-msgstr ""
+msgstr "Mainkan"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:83
+#, fuzzy
 msgid "Pause"
-msgstr ""
+msgstr "Jeda"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:84
+#, fuzzy
 msgid "Previous"
-msgstr ""
+msgstr "Sebelum"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:85
+#, fuzzy
 msgid "Next"
-msgstr ""
+msgstr "Selanjutnya"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:86
 msgid ""
@@ -2353,30 +2802,34 @@ msgid ""
 msgstr ""
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:87
+#, fuzzy
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/PlayerView.cs:88
+#, fuzzy
 msgid "Detach window"
-msgstr ""
+msgstr "Lepas"
 
 #. Create the dialog
 #: ../LongoMatch.GUI.Multimedia/Gui/Utils/Remuxer.cs:74
+#, fuzzy
 msgid "Remuxing file..."
-msgstr ""
+msgstr "Berkas tidak ada"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/Utils/Remuxer.cs:81
 msgid "Remuxing file, this might take a while..."
 msgstr ""
 
 #: ../LongoMatch.GUI.Multimedia/Gui/Utils/Remuxer.cs:119
+#, fuzzy
 msgid "Error remuxing file:\n"
-msgstr ""
+msgstr "Galat saat membaca berkas Fig."
 
 #: ../LongoMatch.GUI.Multimedia/Gui/Utils/Remuxer.cs:183
 msgid ""
-"The file you are trying to load is not properly supported. Would you like to"
-" convert it into a more suitable format?"
+"The file you are trying to load is not properly supported. Would you like to "
+"convert it into a more suitable format?"
 msgstr ""
 
 #: ../LongoMatch.Migration/Core/SubCategory.cs:125
@@ -2412,74 +2865,86 @@ msgid "Coordinates"
 msgstr "Koordinat"
 
 #: ../LongoMatch.Migration/gtk-gui/MainWindow.cs:21
+#, fuzzy
 msgid "Migration tool"
-msgstr ""
+msgstr "Alat"
 
 #: ../LongoMatch.Migration/gtk-gui/MainWindow.cs:34
 msgid "<b> We have found the following elements from the old version: </b>"
 msgstr ""
 
 #: ../LongoMatch.Migration/gtk-gui/MainWindow.cs:103
+#, fuzzy
 msgid "Convert"
-msgstr ""
+msgstr "Mengkonversi"
 
 #: ../LongoMatch.Migration/MainWindow.cs:84
 msgid "Nothing to migrate from the old version"
 msgstr ""
 
 #: ../LongoMatch.Migration/MainWindow.cs:92
+#, fuzzy
+#| msgid "Database"
 msgid "Databases"
-msgstr ""
+msgstr "Penyedia bagi basis data Berkeley"
 
 #: ../LongoMatch.Migration/MainWindow.cs:93
 msgid "Dashboards"
 msgstr ""
 
 #: ../LongoMatch.Migration/MainWindow.cs:94
+#, fuzzy
+#| msgid "Teams:"
 msgid "Teams"
-msgstr ""
+msgstr "Tim"
 
 #: ../LongoMatch.Multimedia/Capturer/FakeCapturer.cs:100
+#, fuzzy
 msgid "Fake live source"
-msgstr ""
+msgstr "Live"
 
 #: ../LongoMatch.Multimedia/Utils/GstDiscoverer.cs:61
 msgid "Could not parse file:"
 msgstr "Tak bisa mengurai berkas:"
 
-#: ../LongoMatch.Plugins/CSVExporter.cs:36
+#: ../LongoMatch.Plugins/CSVExporter.cs:40
+#, fuzzy
 msgid "CSV export plugin"
-msgstr ""
+msgstr "Ekspor projek ke berkas CSV"
 
-#: ../LongoMatch.Plugins/CSVExporter.cs:42
+#: ../LongoMatch.Plugins/CSVExporter.cs:46
+#, fuzzy
+#| msgid "Export project to CSV file"
 msgid "Export project into CSV format"
-msgstr ""
+msgstr "Ekspor projek ke berkas CSV"
 
-#: ../LongoMatch.Plugins/CSVExporter.cs:49
+#: ../LongoMatch.Plugins/CSVExporter.cs:53
 msgid "Export project to CSV file"
 msgstr "Ekspor projek ke berkas CSV"
 
-#: ../LongoMatch.Plugins/CSVExporter.cs:72
+#: ../LongoMatch.Plugins/CSVExporter.cs:82
 #: ../LongoMatch.Services/ToolsManager.cs:82
 msgid "Project exported successfully"
 msgstr "Projek sukses diekspor"
 
-#: ../LongoMatch.Plugins/CSVExporter.cs:74
+#: ../LongoMatch.Plugins/CSVExporter.cs:84
 #: ../LongoMatch.Services/ToolsManager.cs:84
 msgid "Error exporting project"
 msgstr "Galat saat mengekspor projek"
 
 #: ../LongoMatch.Plugins.GStreamer/GStreamerRestricted.cs:39
+#, fuzzy
 msgid "GStreamer open source plugins"
-msgstr ""
+msgstr "Pengaya GStreamer ReplayGain tak tersedia"
 
 #: ../LongoMatch.Plugins.GStreamer/GStreamerRestricted.cs:45
 msgid "GStreamer open source plugins with patents issues"
 msgstr ""
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.CategoryViewer.cs:53
+#, fuzzy
 msgid "No data available"
-msgstr ""
+msgstr "Tidak ada data pengujian"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.CategoryViewer.cs:62
 msgid "Statistics"
@@ -2498,12 +2963,14 @@ msgid "<b>Away</b>"
 msgstr "<b>Tandang</b>"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.CategoryViewer.cs:144
+#, fuzzy
 msgid "Zonal tagging"
-msgstr ""
+msgstr "Pengetagan komentar"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.GameViewer.cs:51
+#, fuzzy
 msgid "Sub categories"
-msgstr ""
+msgstr "_Kategori"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.PlayerSubcategoryViewer.cs:58
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.SubCategoryViewer.cs:57
@@ -2521,16 +2988,19 @@ msgid "Pie chart"
 msgstr "Bagan pai"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.StatsDialog.cs:43
+#, fuzzy
 msgid "Game stats"
-msgstr ""
+msgstr "_Permainan"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.StatsDialog.cs:56
+#, fuzzy
 msgid "Categories stats"
-msgstr ""
+msgstr "Kategori:"
 
 #: ../LongoMatch.Plugins.Stats/gtk-gui/LongoMatch.Plugins.Stats.StatsDialog.cs:69
+#, fuzzy
 msgid "Players stats"
-msgstr ""
+msgstr "Pemain:"
 
 #: ../LongoMatch.Plugins.Stats/Stats/PlayerSubcategoryViewer.cs:36
 #: ../LongoMatch.Plugins.Stats/Stats/SubcategoryViewer.cs:34
@@ -2546,12 +3016,14 @@ msgid "All"
 msgstr "Semua"
 
 #: ../LongoMatch.Plugins.Stats/StatsUIPlugin.cs:49
+#, fuzzy
 msgid "Game statistics"
-msgstr ""
+msgstr "Statistik"
 
 #: ../LongoMatch.Plugins.Stats/StatsUIPlugin.cs:55
+#, fuzzy
 msgid "Show the game statistics"
-msgstr ""
+msgstr "Tampilkan statistik permainan"
 
 #: ../LongoMatch.Services/CoreServices.cs:220
 msgid ""
@@ -2563,29 +3035,34 @@ msgid "Close the current project to open the database manager"
 msgstr ""
 
 #: ../LongoMatch.Services/EventsManager.cs:183
+#, fuzzy
 msgid "Error capturing video frame"
-msgstr ""
+msgstr "Galat ketika membaca DVD video (%s)"
 
 #: ../LongoMatch.Services/EventsManager.cs:277
 #: ../LongoMatch.Services/EventsManager.cs:305
+#, fuzzy
 msgid "Video capture is stopped"
-msgstr ""
+msgstr "Tangkap"
 
 #: ../LongoMatch.Services/PlayerController.cs:717
+#, fuzzy
 msgid "Invalid camera configuration"
-msgstr ""
+msgstr "Skrip konfigurasi proxy yang diunduh tidak sah"
 
 #: ../LongoMatch.Services/PlaylistManager.cs:185
+#, fuzzy
 msgid "Playlist name:"
-msgstr ""
+msgstr "_Nama Daftar Putar:"
 
 #: ../LongoMatch.Services/PlaylistManager.cs:186
 msgid "New playlist"
 msgstr "Daftar putar baru"
 
 #: ../LongoMatch.Services/ProjectsManager.cs:141
+#, fuzzy
 msgid "An error occured saving the project:\n"
-msgstr ""
+msgstr "Galat saat menyimpan sambungan"
 
 #: ../LongoMatch.Services/ProjectsManager.cs:142
 msgid ""
@@ -2598,8 +3075,9 @@ msgid "An error occurred opening this project:"
 msgstr "Galat saat membuka projek ini:"
 
 #: ../LongoMatch.Services/ProjectsManager.cs:232
+#, fuzzy
 msgid "Do you want to close the current project?"
-msgstr ""
+msgstr "Apakah Anda benar-benar ingin mengosongkan projek ini?"
 
 #: ../LongoMatch.Services/ProjectsManager.cs:361
 msgid "The following error happened and the current project will be closed:"
@@ -2611,62 +3089,78 @@ msgstr ""
 
 #: ../LongoMatch.Services/RenderingJobsManager.cs:169
 #: ../LongoMatch.Services/RenderingJobsManager.cs:199
+#, fuzzy
 msgid "Error rendering job: "
-msgstr ""
+msgstr "Galat ketika membatalkan tugas"
 
 #: ../LongoMatch.Services/RenderingJobsManager.cs:343
+#, fuzzy
 msgid "Rendering"
-msgstr ""
+msgstr "Perenderan GL"
 
 #: ../LongoMatch.Services/RenderingJobsManager.cs:349
+#, fuzzy
 msgid "Rendering queue"
-msgstr ""
+msgstr "Mode Perenderan"
 
 #: ../LongoMatch.Services/RenderingJobsManager.cs:350
+#, fuzzy
 msgid "Pending"
-msgstr ""
+msgstr "Ditunda"
 
 #: ../LongoMatch.Services/RenderingJobsManager.cs:364
+#, fuzzy
 msgid "An error has occurred in the video editor."
-msgstr ""
+msgstr "Kesalahan tak terduga telah terjadi: %d."
 
 #: ../LongoMatch.Services/RenderingJobsManager.cs:365
 msgid "Please, try again."
 msgstr "Silakan coba lagi."
 
 #: ../LongoMatch.Services/TemplatesService.cs:253
+#, fuzzy
+#| msgid "Local team"
 msgid "Home team"
-msgstr ""
+msgstr "Tim:"
 
 #: ../LongoMatch.Services/TemplatesService.cs:255
+#, fuzzy
+#| msgid "Local team"
 msgid "Away team"
-msgstr ""
+msgstr "Tandang"
 
 #. Create the default template, it will be added to the list
 #. of system templates to make it always available on the app
 #. and also read-only
 #: ../LongoMatch.Services/TemplatesService.cs:267
+#, fuzzy
 msgid "Default dashboard"
-msgstr ""
+msgstr "Dashboard aplikasi"
 
 #. Show a file chooser dialog to select the file to import
 #: ../LongoMatch.Services/ToolsManager.cs:108
 #: ../LongoMatch.Services/ToolsManager.cs:209
+#, fuzzy
 msgid "Import project"
-msgstr ""
+msgstr "Impor projek"
 
 #: ../LongoMatch.Services/ToolsManager.cs:121
+#, fuzzy
+#| msgid "File not found"
 msgid "Plugin not found"
-msgstr ""
+msgstr "Pengaya tak ditemukan: '%s'"
 
 #: ../LongoMatch.Services/ToolsManager.cs:142
+#, fuzzy
 msgid "A project already exists for this ID:"
-msgstr ""
+msgstr "Direktori tujuan telah ada"
 
 #: ../LongoMatch.Services/ToolsManager.cs:144
+#, fuzzy
 msgid "Do you want to overwrite it?"
-msgstr ""
+msgstr "Apakah Anda ingin menimpa berkas tersebut?"
 
 #: ../LongoMatch.Services/ToolsManager.cs:154
+#, fuzzy
 msgid "Error importing project:"
-msgstr ""
+msgstr "Galat Saat Mengimpor Berkas CSV"
