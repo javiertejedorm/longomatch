@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: longomatch 0.20\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=longomatch&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-10-03 22:01+0000\n"
-"PO-Revision-Date: 2014-10-08 13:26+0700\n"
+"POT-Creation-Date: 2016-05-08 10:56+0000\n"
+"PO-Revision-Date: 2016-07-06 14:05+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:2121
 msgid ""
@@ -93,11 +93,11 @@ msgstr "Stereo"
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4324
 msgid "Too old version of GStreamer installed."
-msgstr ""
+msgstr "Versi GStreamer yang terpasang terlalu tua."
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4331
 msgid "Media contains no supported video streams."
-msgstr ""
+msgstr "Media tidak memuat stream video yang didukung."
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4599
 #, c-format
@@ -105,6 +105,7 @@ msgid ""
 "Failed to create a GStreamer play object. Please check your GStreamer "
 "installation."
 msgstr ""
+"Gagal membuat objek putar GStreamer. Harap periksa instalasi GStreamer Anda."
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4680
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4809
@@ -113,6 +114,8 @@ msgid ""
 "Failed to open video output. It may not be available. Please select another "
 "video output in the Multimedia Systems Selector."
 msgstr ""
+"Gagal membuka keluaran video. Itu mungkin tidak tersedia. Harap pilih "
+"keluaran video lain dalam Pemilih Sistem Multimedia."
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4694
 #, c-format
@@ -121,6 +124,9 @@ msgid ""
 "GStreamer plugins, or select another video output in the Multimedia Systems "
 "Selector."
 msgstr ""
+"Tidak bisa temukan keluaran video. Anda mungkin perlu memasang pengaya "
+"GStreamer tambahan, atau memilih keluaran video lain dalam Pemilih Sistem "
+"Multimedia."
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4730
 #, c-format
@@ -129,6 +135,9 @@ msgid ""
 "device, or the sound server may not be running. Please select another audio "
 "output in the Multimedia Systems Selector."
 msgstr ""
+"Gagal membuka keluaran audio. Anda mungkin tidak punya ijin untuk membuka "
+"perangkat suara, atau server suara mungkin tidak berjalan. Harap pilih "
+"keluaran audio lain dalam Pemilih Sistem Multimedia."
 
 #: ../libcesarplayer/bacon-video-widget-gst-0.10.c:4750
 #, c-format
@@ -137,6 +146,9 @@ msgid ""
 "GStreamer plugins, or select another audio output in the Multimedia Systems "
 "Selector."
 msgstr ""
+"Tidak bisa temukan keluaran audio. Anda mungkin perlu memasang pengaya "
+"GStreamer tambahan, atau pilih keluaran audio lain dalam Pemilih Sistem "
+"Multimedia."
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "9:05:02" for 9
@@ -214,75 +226,66 @@ msgstr "LongoMatch: Pelatih Digital"
 
 #: ../LongoMatch/longomatch.desktop.in.in.h:3
 msgid "Sports video analysis tool for coaches"
-msgstr ""
+msgstr "Alat analisis video olah raga bagi pelatih"
 
 #: ../LongoMatch/Main.cs:71
 msgid ""
 "The database seems to be locked by another instance and the application will "
 "closed."
 msgstr ""
+"Basis data tampaknya terkunci oleh instansi lain dan aplikasi akan ditutup."
 
 #: ../LongoMatch/Main.cs:110
-#, fuzzy
 msgid "The application has finished with an unexpected error."
-msgstr "Kesalahan tak terduga telah terjadi: %d."
+msgstr "Aplikasi telah berakhir dengan kesalahan yang tak disangka."
 
 #: ../LongoMatch/Main.cs:111
-#, fuzzy
 msgid "A log has been saved at: "
-msgstr "A log has been saved at: "
+msgstr "Sebuah log telah disimpan pada: "
 
 #: ../LongoMatch/Main.cs:112
-#, fuzzy
 msgid "Please, fill a bug report "
-msgstr "Mohon laporkan bug ini ke para pengembang."
+msgstr "Mohon laporkan bug "
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:26
-#, fuzzy
 msgid "Database locked:"
-msgstr "Terkunci"
+msgstr "Basis data terkunci"
 
 #: ../LongoMatch.Core/Common/Exceptions.cs:35
-#, fuzzy
 msgid "Unknown database error:"
-msgstr "Kesalahan tak dikenal."
+msgstr "Kesalahan basis data yang tak dikenal:"
 
 #: ../LongoMatch.Core/Common/VideoStandards.cs:55
-#, fuzzy
 msgid "Keep original size"
-msgstr "Ukuran Asli"
+msgstr "Pertahankan ukuran asli"
 
 #: ../LongoMatch.Core/Store/Category.cs:132
 #: ../LongoMatch.Core/Store/Category.cs:140
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:253
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:72
-#, fuzzy
 msgid "Sort by name"
-msgstr "_Urutkan"
+msgstr "Urut berdasar nama"
 
 #: ../LongoMatch.Core/Store/Category.cs:134
 #: ../LongoMatch.Core/Store/Category.cs:144
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:254
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:73
-#, fuzzy
 msgid "Sort by start time"
-msgstr "Mulai waktu"
+msgstr "Urut berdasar waktu mulai"
 
 #: ../LongoMatch.Core/Store/Category.cs:136
 #: ../LongoMatch.Core/Store/Category.cs:146
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:255
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:74
-#, fuzzy
 msgid "Sort by stop time"
-msgstr "Stop:"
+msgstr "Urut berdasar waktu selesai"
 
 #: ../LongoMatch.Core/Store/Category.cs:138
 #: ../LongoMatch.Core/Store/Category.cs:148
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.CategoryProperties.cs:256
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:75
-#, fuzzy
 msgid "Sort by duration"
-msgstr "Durasi:"
+msgstr "Urut berdasar durasi"
 
 #: ../LongoMatch.Core/Store/Category.cs:158
 msgid "name"
@@ -294,7 +297,7 @@ msgstr "Tak didefinisikan"
 
 #: ../LongoMatch.Core/Store/Project.cs:263
 msgid "The file you are trying to load is not a valid project"
-msgstr ""
+msgstr "Berkas yang Anda coba muat bukan projek yang valid"
 
 #: ../LongoMatch.Core/Store/SubCategory.cs:84
 #: ../LongoMatch.GUI/Gui/Component/Stats/PlayerSubcategoryViewer.cs:35
@@ -343,14 +346,12 @@ msgid "Coordinates"
 msgstr "Koordinat"
 
 #: ../LongoMatch.Core/Store/Templates/CategoriesTemplate.cs:153
-#, fuzzy
 msgid "Local Team Players"
-msgstr "Pemain:"
+msgstr "Pemain Tim Lokal"
 
 #: ../LongoMatch.Core/Store/Templates/CategoriesTemplate.cs:159
-#, fuzzy
 msgid "Visitor Team Players"
-msgstr "Pemain:"
+msgstr "Pemain Tim Tamu"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Base.TemplatesEditorBase.cs:94
 msgid "New Before"
@@ -695,17 +696,15 @@ msgstr "PENGKODEAN"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.ProjectListWidget.cs:31
 msgid "Projects Search:"
-msgstr ""
+msgstr "Pencarian Projek:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.GameViewer.cs:51
-#, fuzzy
 msgid "Sub categories"
-msgstr "Kategori"
+msgstr "Sub kategori"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.CategoryViewer.cs:53
-#, fuzzy
 msgid "No data available"
-msgstr "Meta data belum tersedia"
+msgstr "Data tidak tersedia"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.Stats.CategoryViewer.cs:62
 msgid "Statistics"
@@ -794,9 +793,8 @@ msgid "Enable title overlay"
 msgstr ""
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:170
-#, fuzzy
 msgid "<b>Rendering</b>"
-msgstr "<b>Rendering</b>"
+msgstr "<b>Perenderan</b>"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Component.VideoPreferencesPanel.cs:252
 msgid "<b>Capture</b>"
@@ -871,9 +869,8 @@ msgid "Select template name"
 msgstr "Pilih nama templat"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EntryDialog.cs:67
-#, fuzzy
 msgid "Copy existent template:"
-msgstr "Template"
+msgstr "Salin templat yang ada"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.EntryDialog.cs:85
 msgid "Players:"
@@ -968,14 +965,12 @@ msgid "Interval (frames/s):"
 msgstr "_Interval:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SnapshotsDialog.cs:67
-#, fuzzy
 msgid "Series Name:"
-msgstr "Seri dalam:"
+msgstr "Nama Seri:"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.SnapshotsDialog.cs:121
-#, fuzzy
 msgid "Export to PNG images"
-msgstr "Gambar (GIF, PNG, BMP, ...)"
+msgstr "Ekspor ke citra PNG"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.Dialog.StatsViewer.cs:21
 #, fuzzy
@@ -1160,7 +1155,7 @@ msgstr "Ala_t"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:93
 msgid "Database Manager"
-msgstr ""
+msgstr "Manajer Basis Data"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:95
 #, fuzzy
@@ -1190,9 +1185,8 @@ msgid "Tagging view"
 msgstr "Pengetagan komentar"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:110
-#, fuzzy
 msgid "Capture Mode"
-msgstr "Tangkap"
+msgstr "Mode Tangkap"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:112
 #, fuzzy
@@ -1229,7 +1223,7 @@ msgstr "%s CSV <NAMA BERKAS>"
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:132
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:133
 msgid "Teams Templates Manager"
-msgstr ""
+msgstr "Manajer Templat Tim"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:135
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:137
@@ -1238,15 +1232,13 @@ msgid "Hide All Widgets"
 msgstr "Widget"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:142
-#, fuzzy
 msgid "_Drawing Tool"
-msgstr "Menggambar"
+msgstr "Alat Men_ggambar"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:145
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:146
-#, fuzzy
 msgid "_Import Project"
-msgstr "Impor projek"
+msgstr "_Impor Projek"
 
 #: ../LongoMatch.GUI/gtk-gui/LongoMatch.Gui.MainWindow.cs:148
 #, fuzzy
@@ -1321,19 +1313,16 @@ msgid "TransparentDrawingArea"
 msgstr "TransparentDrawingArea"
 
 #: ../LongoMatch.GUI/Gui/Base/TemplatesEditorBase.cs:179
-#, fuzzy
 msgid "New template"
-msgstr "Templat Baru"
+msgstr "Templat baru"
 
 #: ../LongoMatch.GUI/Gui/Base/TemplatesEditorBase.cs:182
-#, fuzzy
 msgid "The template name is void."
-msgstr "Nama templat"
+msgstr "Nama templat kosong."
 
 #: ../LongoMatch.GUI/Gui/Base/TemplatesEditorBase.cs:184
-#, fuzzy
 msgid "The template already exists. Do you want to overwrite it ?"
-msgstr "Berkas \"%s\" sudah ada. Apakah Anda ingin menimpanya?"
+msgstr "Templat sudah ada. Apakah Anda ingin menimpanya?"
 
 #: ../LongoMatch.GUI/Gui/Base/TimeScaleBase.cs:164
 msgid "Add new "
@@ -1359,9 +1348,8 @@ msgstr ""
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:126
 #: ../LongoMatch.GUI/Gui/Component/TeamTemplateEditor.cs:158
 #: ../LongoMatch.GUI/Gui/Component/TeamTemplateEditor.cs:167
-#, fuzzy
 msgid "A template needs at least one category"
-msgstr "A template needs at least one category"
+msgstr "Suatu templat perlu paling tidak satu kategori"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:152
 #, fuzzy
@@ -1380,9 +1368,8 @@ msgstr "Sasaran"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:161
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:236
-#, fuzzy
 msgid "Game periods"
-msgstr "_Permainan"
+msgstr "Perioda permainan"
 
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:167
 #: ../LongoMatch.GUI/Gui/Component/CategoriesTemplateEditor.cs:178
@@ -1395,9 +1382,8 @@ msgid "Invalid content. Periods must be separated by spaces (\"1 2 ex1 ex2\")"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Component/CategoryProperties.cs:80
-#, fuzzy
 msgid "Create new..."
-msgstr "Buat direktori baru"
+msgstr "Buat baru..."
 
 #: ../LongoMatch.GUI/Gui/Component/CategoryProperties.cs:262
 msgid ""
@@ -1407,18 +1393,16 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Component/GameUnitTimeScale.cs:53
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:59
-#, fuzzy
 msgid "play"
-msgstr "_Putar"
+msgstr "putar"
 
 #: ../LongoMatch.GUI/Gui/Component/GameUnitWidget.cs:62
 msgid "Time: "
 msgstr "Waktu:"
 
 #: ../LongoMatch.GUI/Gui/Component/GeneralPreferencesPanel.cs:51
-#, fuzzy
 msgid "Default"
-msgstr "Standar"
+msgstr "Baku"
 
 #: ../LongoMatch.GUI/Gui/Component/LiveAnalysisPreferences.cs:58
 msgid "Select a folder"
@@ -1426,39 +1410,32 @@ msgstr "Pilih suatu folder"
 
 #: ../LongoMatch.GUI/Gui/Component/PlayerProperties.cs:88
 #: ../LongoMatch.GUI/Gui/Helpers/Misc.cs:44
-#, fuzzy
 msgid "Choose an image"
-msgstr "Pilih"
+msgstr "Pilih suatu citra"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:132
-#, fuzzy
 msgid "Categories filter"
-msgstr "Kategori"
+msgstr "Penyaring kategori"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:133
-#, fuzzy
 msgid "Players filter"
-msgstr "Pemain:"
+msgstr "Penyaring pemain"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:235
-#, fuzzy
 msgid "Disable categories filters"
-msgstr "Kategori"
+msgstr "Nonaktifkan penyaring kategori"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:237
-#, fuzzy
 msgid "Enable categories filters"
-msgstr "Kategori"
+msgstr "Fungsikan penyaring kategori"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:245
-#, fuzzy
 msgid "Disable players filters"
-msgstr "Pemain:"
+msgstr "Nonaktifkan penyaring pemain"
 
 #: ../LongoMatch.GUI/Gui/Component/PlaysSelectionWidget.cs:247
-#, fuzzy
 msgid "Enable players filters"
-msgstr "Pemain:"
+msgstr "Fungsikan penyaring pemain"
 
 #: ../LongoMatch.GUI/Gui/Component/ProjectDetailsWidget.cs:444
 #: ../LongoMatch.Plugins/CSVExporter.cs:46
@@ -1474,9 +1451,8 @@ msgid "Analyzing video file:"
 msgstr "Menganalisis berkas video:"
 
 #: ../LongoMatch.GUI/Gui/Component/ProjectDetailsWidget.cs:471
-#, fuzzy
 msgid "This file doesn't contain a video stream."
-msgstr "Berkas tidak berisi fungsi \"%s\"."
+msgstr "Berkas tidak berisi stream video."
 
 #: ../LongoMatch.GUI/Gui/Component/ProjectDetailsWidget.cs:473
 msgid "This file contains a video stream but its length is 0."
@@ -1563,9 +1539,8 @@ msgid "All"
 msgstr "Semua"
 
 #: ../LongoMatch.GUI/Gui/Component/TeamTemplateEditor.cs:48
-#, fuzzy
 msgid "Teams players"
-msgstr "Semua pemain tim"
+msgstr "Pemain tim"
 
 #: ../LongoMatch.GUI/Gui/Component/TeamTemplateEditor.cs:76
 #, fuzzy
@@ -1596,20 +1571,17 @@ msgstr "Tambah ke Daftar Putar"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:73
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:173
-#, fuzzy
 msgid "Export to video file"
-msgstr "Menganalisis berkas video:"
+msgstr "Ekspor ke berkas video"
 
 #: ../LongoMatch.GUI/Gui/Component/TimeScale.cs:74
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:174
-#, fuzzy
 msgid "Export to PGN images"
-msgstr "Ekspor ke..."
+msgstr "Ekspor ke citra-citra PNG"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:43
-#, fuzzy
 msgid "Active database"
-msgstr "Aktif"
+msgstr "Basis data aktif"
 
 #: ../LongoMatch.GUI/Gui/Dialog/DatabasesManager.cs:58
 #, fuzzy
@@ -1655,14 +1627,12 @@ msgid "This hotkey is already in use."
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/FramesCaptureProgressDialog.cs:50
-#, fuzzy
 msgid "Capturing frame: "
-msgstr "Bingkai:"
+msgstr "Menangkap bingkai: "
 
 #: ../LongoMatch.GUI/Gui/Dialog/FramesCaptureProgressDialog.cs:59
-#, fuzzy
 msgid "Done"
-msgstr "Selesa_i"
+msgstr "Selesai"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:69
 msgid "The Project has been edited, do you want to save the changes?"
@@ -1678,18 +1648,16 @@ msgid "Close it first to allow its removal from the database"
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:103
-#, fuzzy
 msgid "Do you really want to delete:"
-msgstr "Anda benar-benar ingin menghapus identitas yang dipilih?"
+msgstr "Apakah Anda memang ingin menghapus:"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:159
 msgid "The Project you are trying to load is actually in use."
 msgstr ""
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:159
-#, fuzzy
 msgid "Close it first to edit it"
-msgstr "Sunting perintah sebagai skrip di Anjuta saat ditutup"
+msgstr "Tutup dulu sebelum menyuntingnya"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ProjectsManager.cs:178
 msgid "Save Project"
@@ -1704,30 +1672,28 @@ msgid "Video"
 msgstr "Video"
 
 #: ../LongoMatch.GUI/Gui/Dialog/PropertiesEditor.cs:54
-#, fuzzy
 msgid "Live analysis"
-msgstr "Bantuan _Langsung"
+msgstr "Analisis langsung"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:27
-#, fuzzy
 msgid "Pause or play"
-msgstr "Ubah mode main/istirahat"
+msgstr "Jeda atau putar"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:28
 msgid "Step forward one frame"
-msgstr ""
+msgstr "Melangkah maju satu bingkai"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:29
 msgid "Step backward one frame"
-msgstr ""
+msgstr "Melangkah mundur satu bingkai"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:30
 msgid "Jump forward X seconds"
-msgstr ""
+msgstr "Maju X detik"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:31
 msgid "Jump backward X seconds"
-msgstr ""
+msgstr "Mundur X detik"
 
 #: ../LongoMatch.GUI/Gui/Dialog/ShortcutsHelpDialog.cs:32
 msgid "Increase playback speed"
@@ -1751,21 +1717,19 @@ msgstr "Nama templat"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:201
 msgid "You cannot create a template with a void name"
-msgstr ""
+msgstr "Anda tidak bisa membuat templat dengan nama kosong"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:206
-#, fuzzy
 msgid "A template with this name already exists"
-msgstr "Alat dengan nama yang sama sudah ada!"
+msgstr "Sebuah templat dengan nama ini sudah ada"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:227
 msgid "You can't delete the 'default' template"
-msgstr ""
+msgstr "Anda tak bisa menghapus templat 'default'"
 
 #: ../LongoMatch.GUI/Gui/Dialog/TemplatesManager.cs:232
-#, fuzzy
 msgid "Do you really want to delete the template: "
-msgstr "Anda benar-benar ingin menghapus identitas yang dipilih?"
+msgstr "Apakah Anda memang ingin menghapus templat: "
 
 #: ../LongoMatch.GUI/Gui/Dialog/VideoConversionTool.cs:63
 msgid "Input files"
@@ -1778,7 +1742,7 @@ msgstr "Tambah berkas"
 
 #: ../LongoMatch.GUI/Gui/Dialog/VideoConversionTool.cs:97
 msgid "Error adding files:"
-msgstr ""
+msgstr "Kesalahan saat menambah berkas:"
 
 #: ../LongoMatch.GUI/Gui/Dialog/VideoConversionTool.cs:121
 msgid "MP4 file"
@@ -1798,34 +1762,30 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:138
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:340
-#, fuzzy
 msgid "Please, select a video file."
-msgstr "Harap pilih suatu berkas .shape"
+msgstr "Harap pilih suatu berkas video."
 
 #: ../LongoMatch.GUI/Gui/GUIToolkit.cs:141
 msgid "Please, select an output directory."
-msgstr ""
+msgstr "Harap pilih suatu direktori keluaran."
 
 #: ../LongoMatch.GUI/Gui/Helpers/MessagesHelpers.cs:95
 msgid "Add"
 msgstr "Tambah"
 
 #: ../LongoMatch.GUI/Gui/MainWindow.cs:151
-#, fuzzy
 msgid "Import file project"
-msgstr "Impor projek"
+msgstr "Impor berkas projek"
 
 #: ../LongoMatch.GUI/Gui/MainWindow.cs:537
-#, fuzzy
 msgid "Do you want to close the current project?"
-msgstr "Apakah Anda ingin menutup koneksi '%s'?"
+msgstr "Apakah Anda ingin menutup projek saat ini?"
 
 #: ../LongoMatch.GUI/Gui/MainWindow.cs:800
 msgid "The following error happened and the current project will be closed:"
-msgstr ""
+msgstr "Kesalahan berikut terjadi dan projek saat ini akan ditutup:"
 
 #: ../LongoMatch.GUI/Gui/TreeView/CategoriesFilterTreeView.cs:38
-#, fuzzy
 msgid "Category"
 msgstr "Katagori"
 
@@ -1852,12 +1812,10 @@ msgstr ""
 
 #: ../LongoMatch.GUI/Gui/TreeView/CategoriesTreeView.cs:73
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:71
-#, fuzzy
 msgid "Sort Method"
-msgstr "Metode"
+msgstr "Metode Pengurutan"
 
 #: ../LongoMatch.GUI/Gui/TreeView/FilterBaseView.cs:69
-#, fuzzy
 msgid "Visible"
 msgstr "Tampak"
 
@@ -1866,20 +1824,18 @@ msgid "Select all"
 msgstr "Pilih semua"
 
 #: ../LongoMatch.GUI/Gui/TreeView/FilterBaseView.cs:88
-#, fuzzy
 msgid "Unselect all"
-msgstr "_Semua"
+msgstr "Pilih tak satupun"
 
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:166
 #: ../LongoMatch.GUI/Gui/TreeView/PlayersTreeView.cs:56
 #: ../LongoMatch.GUI/Gui/TreeView/PlaysTreeView.cs:70
 msgid "Edit name"
-msgstr ""
+msgstr "Sunting nama"
 
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:168
-#, fuzzy
 msgid "Duplicate"
-msgstr "_Duplikat"
+msgstr "Duplikat"
 
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:169
 #: ../LongoMatch.GUI/Gui/TreeView/PlayListTreeView.cs:58
@@ -1887,14 +1843,12 @@ msgid "Delete"
 msgstr "Hapus"
 
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:170
-#, fuzzy
 msgid "Delete key frame"
-msgstr "<key>Hapus</key>"
+msgstr "Hapus bingkai kunci"
 
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:175
-#, fuzzy
 msgid "Move to category"
-msgstr "Katagori"
+msgstr "Pindah ke katagori"
 
 #: ../LongoMatch.GUI/Gui/TreeView/ListTreeViewBase.cs:341
 msgid "Do you want to delete the key frame for this play?"
@@ -1905,9 +1859,8 @@ msgid "Photo"
 msgstr "Foto"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayerPropertiesTreeView.cs:57
-#, fuzzy
 msgid "Play this match"
-msgstr "Cocok"
+msgstr "Mainkan pertandingan ini"
 
 #: ../LongoMatch.GUI/Gui/TreeView/PlayerPropertiesTreeView.cs:62
 msgid "Date of Birth"
@@ -1963,9 +1916,8 @@ msgid "State"
 msgstr "Keadaan"
 
 #: ../LongoMatch.GUI/Gui/TreeView/SubCategoriesTreeView.cs:94
-#, fuzzy
 msgid "Remove sub-category"
-msgstr "Katagori"
+msgstr "Hapus sub katagori"
 
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerBin.cs:253
 #, fuzzy
@@ -1979,12 +1931,11 @@ msgstr "Waktu:"
 #: ../LongoMatch.GUI.Multimedia/gtk-gui/LongoMatch.Gui.PlayerCapturerBin.cs:63
 #, fuzzy
 msgid "Back To Live"
-msgstr "Balik"
+msgstr "Kembali Ke "
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:138
-#, fuzzy
 msgid "Do you want to pause the recording?"
-msgstr "Anda ingin menyambungkan koneksi?"
+msgstr "Anda ingin mengistirahatkan perekaman?"
 
 #: ../LongoMatch.GUI.Multimedia/Gui/CapturerBin.cs:256
 msgid ""
@@ -2107,9 +2058,8 @@ msgid "New playlist"
 msgstr "Daftar putar baru"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:159
-#, fuzzy
 msgid "An error occured saving the project:\n"
-msgstr "Galat saat menyimpan hasil: %s\n"
+msgstr "Terjadi kesalahan saat menyimpan projek:\n"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:160
 msgid ""
@@ -2118,9 +2068,8 @@ msgid ""
 msgstr ""
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:188
-#, fuzzy
 msgid "Error importing project:"
-msgstr "Galat saat menutup projek: %s"
+msgstr "Kesalahan saat mengimpor projek:"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:197
 msgid ""
@@ -2129,32 +2078,28 @@ msgid ""
 msgstr ""
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:199
-#, fuzzy
 msgid "Select a video file"
-msgstr "Menganalisis berkas video:"
+msgstr "Pilih suatu berkas video"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:202
 msgid "Could not import project, you need a video file"
-msgstr ""
+msgstr "Tidak bisa mengimpro projek, Anda perlu suatu berkas video"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:217
-#, fuzzy
 msgid "A project already exists for the file:"
-msgstr "File sudah ada. Timpa?"
+msgstr "Suatu projek sudah untuk berkas:"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:219
-#, fuzzy
 msgid "Do you want to overwrite it?"
-msgstr "Apakah Anda ingin menimpa berkas tersebut?"
+msgstr "Apakah Anda ingin menimpanya?"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:227
 msgid "Project successfully imported."
 msgstr "Projek sukses diimpor."
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:238
-#, fuzzy
 msgid "The file associated to this project doesn't exist."
-msgstr "Projek tak ada atau path tak valid"
+msgstr "Berkas yang terasosiasi ke projek ini tidak ada."
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:239
 msgid ""
@@ -2170,20 +2115,19 @@ msgstr "Galat saat membuka projek ini:"
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:307
 msgid "Creating video thumbnails. This can take a while."
-msgstr ""
+msgstr "Membuat gambar mini video. Ini bisa makan waktu."
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:382
-#, fuzzy
 msgid "No capture devices were found."
-msgstr "Tidak ditemukan record yang cocok."
+msgstr "Tidak ditemukan perangkat penangkapan."
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:421
 msgid "You are opening a live project without any video file associated yet."
-msgstr ""
+msgstr "Anda membuka suatu projek hidup belum dengan berkas video terkait."
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:422
 msgid "Select a video file in the next step."
-msgstr ""
+msgstr "Pilih suatu berkas video dalam langkah selanjutnya."
 
 #: ../LongoMatch.Services/Services/ProjectsManager.cs:437
 msgid "Save project"
@@ -2191,43 +2135,36 @@ msgstr "Simpan projek"
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:159
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:182
-#, fuzzy
 msgid "Error rendering job: "
-msgstr "Tugas"
+msgstr "Kesalahan tugas perenderan: "
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:270
-#, fuzzy
 msgid "Rendering"
-msgstr "Perenderan PostScript"
+msgstr "Perenderan"
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:275
-#, fuzzy
 msgid "Rendering queue"
-msgstr "Perenderan PostScript"
+msgstr "Antrian perenderan"
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:276
-#, fuzzy
 msgid "Pending"
-msgstr "Aksi ditunda"
+msgstr "Tertunda"
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:287
-#, fuzzy
 msgid "An error has occurred in the video editor."
-msgstr "Galat cetak telah terjadi"
+msgstr "Galat telah terjadi dalam penyunting video."
 
 #: ../LongoMatch.Services/Services/RenderingJobsManager.cs:288
 msgid "Please, try again."
 msgstr "Silakan coba lagi."
 
 #: ../LongoMatch.Services/Services/TemplatesService.cs:64
-#, fuzzy
 msgid "Local team players"
-msgstr "Pemain:"
+msgstr "Pemain tim lokal"
 
 #: ../LongoMatch.Services/Services/TemplatesService.cs:70
-#, fuzzy
 msgid "Visitor team players"
-msgstr "Pemain:"
+msgstr "Pemain tim tamu"
 
 #: ../LongoMatch.Services/Services/TemplatesService.cs:76
 msgid "All teams players"
@@ -2235,6 +2172,5 @@ msgstr "Semua pemain tim"
 
 #: ../LongoMatch.Services/Services/TemplatesService.cs:214
 #: ../LongoMatch.Services/Services/TemplatesService.cs:232
-#, fuzzy
 msgid "A template already exists with the name: "
-msgstr "Alat dengan nama yang sama sudah ada!"
+msgstr "Suatu templat dengan nama yang sama sudah ada dengan nama: "
